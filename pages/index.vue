@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">gc-project</h1>
+      <h1 class="title">Welcome</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -20,6 +20,9 @@
         >
           GitHub
         </a>
+        <NuxtLink :to="{ name: 'about' }" class="btn btn-primary"
+          >About</NuxtLink
+        >
       </div>
     </div>
   </div>
