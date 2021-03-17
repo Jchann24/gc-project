@@ -1,11 +1,39 @@
 @charset "utf-8";
 
-// $body-bg: #282a36;
-// $body-color: #f6f6f4;
+$custom-color-one: #e2dbbb;
+$custom-color-two: #eaece4;
+$custom-color-three: #66482e;
+$custom-color-four: #c89900;
+$custom-color-five: #f4f0e4;
+$custom-color-six: #c6bd95;
 
-// $primary: #474b60;
-// $secondary: #ffffff;
-// $success: #6a8e7f;
-// $info: #38aecc;
-// $warning: #e59500;
-// $danger: #f67e7d;
+$custom-theme-colors: (
+  'one': $custom-color-one,
+  'two': $custom-color-two,
+  'three': $custom-color-three,
+  'four': $custom-color-four,
+  'five': $custom-color-five,
+  'six': $custom-color-six,
+) !default;
+
+// $body-bg: $custom-color-three;
+$body-color: #f6f6f4;
+
+$primary: #474b60;
+$secondary: #ffffff;
+$success: #6a8e7f;
+$info: #38aecc;
+$warning: #e59500;
+$danger: #f67e7d;
+
+@each $color, $value in $custom-theme-colors {
+  .text-#{$color} {
+    color: $value;
+  }
+}
+
+@each $color, $value in $custom-theme-colors {
+  .bg-#{$color} {
+    background-color: $value;
+  }
+}
