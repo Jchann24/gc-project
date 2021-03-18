@@ -1,5 +1,25 @@
 @charset "utf-8";
 
+// Navigation Bar: Microsoft Tai Le => noto sans
+// Title/ Sub-title: Montserrat Bold
+// Description: Microsoft Tai Le => noto sans
+
+// Navigation Bar: 27 pt
+// Why Us: 54 pt
+// Treatment and Therapies: 60 pt
+// Laser Treatment, etc (yg pakai icon, belakang ada fotonya): 28 pt; description: 18 pt
+// Title (Laser Treatment, Slimming Programs, etc): 91 pt
+// Subtitle (Fotona 4D, Tattoo Removal, etc): 36 pt
+// Description: 24 pt
+// Subtitle (Skin Booster, Lifting): 60 pt
+
+// Navigation bar: #c6bd95
+// Ornaments, Subtitle (untuk yg pakai icon): #c89900
+// Title, Description: #66482e
+// Social media icon: #c6bd95 => SAMA SAMA NAVBAR
+// BG icon: #f4f0e4
+// BG Foto: #eaece4 (Photo opacity 20%)
+
 $custom-color-one: #e2dbbb;
 $custom-color-two: #eaece4;
 $custom-color-three: #66482e;
@@ -9,15 +29,15 @@ $custom-color-six: #c6bd95;
 
 $custom-theme-colors: (
   'one': $custom-color-one,
-  'two': $custom-color-two,
-  'three': $custom-color-three,
-  'four': $custom-color-four,
-  'five': $custom-color-five,
-  'six': $custom-color-six,
+  'photo': $custom-color-two,
+  'title': $custom-color-three,
+  'ornaments': $custom-color-four,
+  'icon': $custom-color-five,
+  'navbar': $custom-color-six,
 ) !default;
 
-// $body-bg: $custom-color-three;
-$body-color: #f6f6f4;
+$body-bg: white;
+$body-color: white;
 
 $primary: #474b60;
 $secondary: #ffffff;
@@ -27,13 +47,13 @@ $warning: #e59500;
 $danger: #f67e7d;
 
 @each $color, $value in $custom-theme-colors {
-  .text-#{$color} {
-    color: $value;
+  .c-color-#{$color} {
+    color: $value !important;
   }
 }
 
 @each $color, $value in $custom-theme-colors {
-  .bg-#{$color} {
-    background-color: $value;
+  .c-bg-#{$color} {
+    background-color: $value !important;
   }
 }
