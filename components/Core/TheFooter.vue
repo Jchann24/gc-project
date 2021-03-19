@@ -3,14 +3,14 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-4 d-flex flex-column">
-          <h1>Find Us</h1>
+          <h5>Find Us</h5>
           <p>
             Jl. Wolter Monginsidi No.84AH, RT.1/RW.4, Petogogan, Kebayoran Baru,
             South Jakarta City, Jakarta 12170
           </p>
         </div>
         <div class="col-12 col-md-8 d-flex flex-column">
-          <h1>Contact Us</h1>
+          <h5>Contact Us</h5>
           <div class="row">
             <div
               class="col-6 d-flex align-items-start flex-column justify-content-center"
@@ -49,7 +49,7 @@
       </div>
       <div class="row mt-3">
         <div class="col-12 col-md-4">
-          <h1>GC Aesthetics</h1>
+          <h5>GC Aesthetics</h5>
           <div class="d-flex align-items-center justify-content-around w-50">
             <span class="badge rounded-pill c-bg-navbar"
               ><i class="ri-phone-line text-white ri-xs"></i>
@@ -66,7 +66,7 @@
           </div>
         </div>
         <div class="col-12 col-md-8 mt-3 mt-md-0">
-          <h1>Clinic Hours</h1>
+          <h5>Clinic Hours</h5>
 
           <div class="row">
             <div class="col-12 col-md-6">

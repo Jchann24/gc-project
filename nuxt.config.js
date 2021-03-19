@@ -32,7 +32,7 @@ export default {
 
   buildModules: ['@nuxtjs/eslint-module'],
 
-  modules: ['@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/style-resources', '@nuxt/content'],
 
   styleResources: {
     scss: '@/assets/scss/_variables.scss',

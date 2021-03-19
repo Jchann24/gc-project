@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg c-bg-navbar">
     <div class="container-fluid d-flex align-items-center">
-      <a class="navbar-brand d-lg-none" href="javascript:void(0)">
+      <nuxt-link to="/" class="navbar-brand d-lg-none">
         <img src="img/GC_logo_white.png" width="50" alt="gc aesthetic logo" />
-      </a>
+      </nuxt-link>
       <button
         class="navbar-toggler border-0"
         type="button"
@@ -26,8 +26,11 @@
           class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center justify-content-evenly w-100"
         >
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#"
-              >AESTHETIC TREATMENTS</a
+            <nuxt-link
+              to="/aesthetic-treatments"
+              class="nav-link"
+              aria-current="page"
+              >AESTHETIC TREATMENTS</nuxt-link
             >
           </li>
           <li class="nav-item">
@@ -36,11 +39,13 @@
           <li
             class="nav-item d-flex align-items-center justify-content-center text-white d-none d-lg-block"
           >
-            <img
-              src="img/GC_logo_white.png"
-              width="50"
-              alt="gc aesthetic logo"
-            />
+            <nuxt-link to="/">
+              <img
+                src="img/GC_logo_white.png"
+                width="50"
+                alt="gc aesthetic logo"
+              />
+            </nuxt-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">ABOUT US</a>
