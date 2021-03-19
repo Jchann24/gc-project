@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg c-bg-navbar">
     <div class="container-fluid d-flex align-items-center">
       <a class="navbar-brand d-lg-none" href="javascript:void(0)">
-        <img src="/img/GC_logo_white.png" width="50" alt="gc aesthetic logo" />
+        <img src="img/GC_logo_white.png" width="50" alt="gc aesthetic logo" />
       </a>
       <button
         class="navbar-toggler border-0"
@@ -37,7 +37,7 @@
             class="nav-item d-flex align-items-center justify-content-center text-white d-none d-lg-block"
           >
             <img
-              src="/img/GC_logo_white.png"
+              src="img/GC_logo_white.png"
               width="50"
               alt="gc aesthetic logo"
             />

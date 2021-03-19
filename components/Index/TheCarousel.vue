@@ -10,7 +10,7 @@
           data-bs-interval="4000"
         >
           <img
-            :src="`/img/banner/${imgName}`"
+            :src="`img/banner/${imgName}`"
             class="d-block mx-auto"
             :alt="`banner ${imgName}`"
           />
