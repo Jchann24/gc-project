@@ -1,12 +1,12 @@
 <template>
   <section id="treatmentAndTherapies">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-12 text-center">
           <h1>Treatment and Therapies</h1>
         </div>
       </div>
-      <div class="row mt-4 g-4">
+      <div class="row mt-4 g-5">
         <div
           v-for="(item, index) in cardItems"
           :key="index"

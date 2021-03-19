@@ -2,10 +2,10 @@
   <section id="whySection" class="container">
     <div class="row">
       <div class="col-12 col-md-2">
-        <h1>Why Us?</h1>
+        <h1 class="font-montserrat fw-bold">Why Us?</h1>
       </div>
       <div class="col-12 col-md-10">
-        <p class="justify-text">
+        <p class="justify-text font-noto">
           Klinik Kami menawarkan perawatan dengan kualitas terbaik didukung oleh
           fasilitas terdepan dengan teknologi Laser Fotona&trade; dan ditunjang
           oleh Dokter professional. Tujuan ahli kami adalah memberi Anda hasil

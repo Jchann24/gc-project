@@ -1,5 +1,8 @@
 export default {
   target: 'static',
+  router: {
+    base: '/gc-project/',
+  },
 
   head: {
     title: 'gc-project',

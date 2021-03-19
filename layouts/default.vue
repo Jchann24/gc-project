@@ -4,6 +4,7 @@
     <main id="main" class="pb-5">
       <Nuxt />
     </main>
+    <CoreTheFooter />
   </div>
 </template>
 
@@ -28,5 +29,19 @@ body {
 
 .justify-text {
   text-align: justify;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 </style>
