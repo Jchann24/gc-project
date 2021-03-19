@@ -6,6 +6,16 @@
           <IndexTheCarousel />
         </div>
       </div>
+      <div class="row mt-4">
+        <div class="col-12 col-md-10 col-lg-8 mx-auto">
+          <IndexTheWhySection />
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <IndexTheTreatmentAndTherapiesSection />
+        </div>
+      </div>
     </div>
   </div>
 </template>
