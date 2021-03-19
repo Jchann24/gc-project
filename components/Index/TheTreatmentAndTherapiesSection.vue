@@ -56,63 +56,63 @@ export default {
       cardItems: [
         {
           name: 'Laser Treatments',
-          icon: 'img/icons/GC-icon-09.svg',
+          icon: 'img/icons/GC-Icon-09.svg',
           bgImage: 'img/bgImg/bg-1.jpg',
           description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
         },
         {
           name: 'Acne Treatment',
-          icon: 'img/icons/GC-icon-07.svg',
+          icon: 'img/icons/GC-Icon-07.svg',
           bgImage: 'img/bgImg/bg-3.jpg',
           description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
         },
         {
           name: 'Acupunture',
-          icon: 'img/icons/GC-icon-10.svg',
+          icon: 'img/icons/GC-Icon-10.svg',
           bgImage: 'img/bgImg/bg-6.jpg',
           description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
         },
         {
           name: 'Intense Pulse Light',
-          icon: 'img/icons/GC-icon-03.svg',
+          icon: 'img/icons/GC-Icon-03.svg',
           bgImage: 'img/bgImg/bg-3.jpg',
           description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
         },
         {
           name: 'Hair / Skin Treatment',
-          icon: 'img/icons/GC-icon-02.svg',
+          icon: 'img/icons/GC-Icon-02.svg',
           bgImage: 'img/bgImg/bg-1.jpg',
           description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
         },
         {
           name: 'Skin Booster',
-          icon: 'img/icons/GC-icon-05.svg',
+          icon: 'img/icons/GC-Icon-05.svg',
           bgImage: 'img/bgImg/bg-3.jpg',
           description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
         },
         {
           name: 'Slimming Programs',
-          icon: 'img/icons/GC-icon-06.svg',
+          icon: 'img/icons/GC-Icon-06.svg',
           bgImage: 'img/bgImg/bg-6.jpg',
           description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
         },
         {
           name: 'Face Treatment',
-          icon: 'img/icons/GC-icon-04.svg',
+          icon: 'img/icons/GC-Icon-04.svg',
           bgImage: 'img/bgImg/bg-3.jpg',
           description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
         },
         {
           name: 'Lifting',
-          icon: 'img/icons/GC-icon-08.svg',
+          icon: 'img/icons/GC-Icon-08.svg',
           bgImage: 'img/bgImg/bg-1.jpg',
           description:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
