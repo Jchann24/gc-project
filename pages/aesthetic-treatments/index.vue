@@ -23,13 +23,29 @@
               class="col-12 col-md-6 col-lg-3 d-flex justify-content-center"
             >
               <div class="card border-0 my-2 my-md-1" style="width: 250px">
-                <div class="hover-badge text-center">
-                  <img
-                    :src="item.icon"
-                    class="card-img-top w-50 mx-auto p-2 c-bg-icon"
-                    alt="..."
-                  />
-                </div>
+                <nuxt-link
+                  v-if="index == 0"
+                  :to="`/aesthetic-treatments/${item.slug}/${getSlug(
+                    item.description[0]
+                  )}`"
+                >
+                  <div class="hover-badge text-center">
+                    <img
+                      :src="item.icon"
+                      class="card-img-top w-50 mx-auto p-2 c-bg-icon"
+                      alt="..."
+                    />
+                  </div>
+                </nuxt-link>
+                <nuxt-link v-else :to="`/aesthetic-treatments/${item.slug}`">
+                  <div class="hover-badge text-center">
+                    <img
+                      :src="item.icon"
+                      class="card-img-top w-50 mx-auto p-2 c-bg-icon"
+                      alt="..."
+                    />
+                  </div>
+                </nuxt-link>
                 <div class="card-body text-center">
                   <h5 class="c-color-ornaments">{{ item.name }}</h5>
                   <div v-if="index != 0">
@@ -59,9 +75,13 @@
                         aria-labelledby="laserTreatmentDropdown"
                       >
                         <li v-for="(desc, idx) in item.description" :key="idx">
-                          <a class="dropdown-item text-white" href="#">{{
-                            desc
-                          }}</a>
+                          <nuxt-link
+                            class="dropdown-item text-white"
+                            :to="`/aesthetic-treatments/${item.slug}/${getSlug(
+                              desc
+                            )}`"
+                            >{{ desc }}</nuxt-link
+                          >
                         </li>
                       </ul>
                     </div>
@@ -151,6 +171,15 @@ export default {
         },
       ],
     }
+  },
+  methods: {
+    getSlug(name) {
+      return name
+        .toLowerCase()
+        .replace(/\//g, '')
+        .replace(/ +/g, ' ')
+        .replace(/\s/g, '-')
+    },
   },
 }
 </script>
