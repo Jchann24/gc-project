@@ -16,6 +16,7 @@ html {
 }
 body {
   min-height: 100%;
+  font-size: 16px;
   width: 100%;
   font-family: 'Noto Sans', sans-serif;
 }
