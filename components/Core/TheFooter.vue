@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-100">
     <hr />
     <footer class="footer mt-auto p-3 bg-white">
       <div class="container">

@@ -10,14 +10,15 @@
 
 <style>
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   min-height: 100vh;
-  max-width: 100vw;
+  max-width: 100vw !important;
 }
 body {
+  overflow-x: hidden !important;
   min-height: 100%;
   font-size: 16px;
-  width: 100%;
+  max-width: 100vw !important;
   font-family: 'Noto Sans', sans-serif;
 }
 
