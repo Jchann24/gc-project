@@ -23,6 +23,18 @@
 <script>
 export default {
   name: 'LandingPage',
+  head() {
+    return {
+      title: 'GC Aesthetics',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'GC Aesthetics',
+        },
+      ],
+    }
+  },
 }
 </script>
 

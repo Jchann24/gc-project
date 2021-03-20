@@ -109,7 +109,7 @@ export default {
           icon: 'img/icons/GC-Icon-09.svg',
           slug: 'laser-treatments',
           description: [
-            'Fotona Laser Tatto Removal',
+            'Fotona Laser Tattoo Removal',
             'Laser Kuku / Onchyomycosis',
             'Laser Pigmentation',
             'Fotona 4D',
@@ -170,6 +170,18 @@ export default {
           icon: 'img/icons/GC-Icon-10.svg',
           slug: 'acupunture',
           description: [],
+        },
+      ],
+    }
+  },
+  head() {
+    return {
+      title: 'Aesthetic Treatments - GC Aesthetics',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Aesthetic Treatments - GC Aesthetics',
         },
       ],
     }
