@@ -17,10 +17,12 @@ html {
 body {
   min-height: 100%;
   width: 100%;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .font-noto {
   font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 0.05em;
 }
 
 .font-montserrat {
@@ -33,6 +35,7 @@ body {
 
 p {
   font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 0.05em;
 }
 
 h1,

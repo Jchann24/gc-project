@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <h1>{{ $route.params.slug }}</h1>
-  </div>
+  <div>test</div>
 </template>
 
 <script>
 export default {
-  name: 'AestheticTreatmentDetails',
+  name: 'TreamentSlug',
 }
 </script>
 

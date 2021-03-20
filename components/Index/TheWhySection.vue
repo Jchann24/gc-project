@@ -1,6 +1,6 @@
 <template>
   <section id="whySection" class="container">
-    <div class="row">
+    <div class="row mt-4">
       <div class="col-12 col-md-2">
         <h1 class="font-montserrat fw-bold">Why Us?</h1>
       </div>

@@ -1,18 +1,18 @@
 <template>
   <section id="treatmentAndTherapies">
     <div class="container">
-      <div class="row">
+      <div class="row mt-4">
         <div class="col-12 text-center">
           <h1>Treatment and Therapies</h1>
         </div>
       </div>
-      <div class="row mt-4 g-5">
+      <div class="row mt-2 g-3">
         <div
           v-for="(item, index) in cardItems"
           :key="index"
           class="col-12 col-md-6 col-lg-4"
         >
-          <div class="card" style="height: 300px">
+          <div class="card border-0" style="height: 350px">
             <figure class="tint mb-0">
               <img
                 :src="`${item.bgImage}`"
@@ -29,10 +29,12 @@
                 >
                   <img
                     :src="`${item.icon}`"
-                    width="75"
+                    width="100"
                     :alt="`${item.name} icon`"
                   />
-                  <h2 class="c-color-ornaments h4">{{ item.name }}</h2>
+                  <h2 class="c-color-ornaments h4 text-center">
+                    {{ item.name }}
+                  </h2>
                 </div>
               </div>
               <div class="row mt-4">
@@ -91,6 +93,7 @@ export default {
         },
         {
           name: 'Skin Booster',
+          slug: 'skin-booster',
           icon: 'img/icons/GC-Icon-05.svg',
           bgImage: 'img/bgImg/bg-3.jpg',
           description:
@@ -112,6 +115,7 @@ export default {
         },
         {
           name: 'Lifting',
+          slug: 'lifting',
           icon: 'img/icons/GC-Icon-08.svg',
           bgImage: 'img/bgImg/bg-1.jpg',
           description:

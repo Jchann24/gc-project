@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg c-bg-navbar">
+  <nav class="navbar navbar-expand-lg c-bg-navbar py-2">
     <div class="container-fluid d-flex align-items-center">
       <nuxt-link to="/" class="navbar-brand d-lg-none">
         <img src="img/GC_logo_white.png" width="50" alt="gc aesthetic logo" />
