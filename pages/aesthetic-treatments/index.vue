@@ -3,8 +3,10 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 px-0">
-          <img src="img/bgImg/bg-2.jpg" class="hero-img w-100" alt="" />
-          <h1 class="overlay-text">Aesthetic Treatments</h1>
+          <div class="hero-container">
+            <img src="img/bgImg/bg-2.jpg" class="hero-img w-100" alt="" />
+            <h1 class="overlay-text">Aesthetic Treatments</h1>
+          </div>
         </div>
       </div>
     </div>
@@ -185,6 +187,11 @@ export default {
 </script>
 
 <style scoped>
+.hero-container {
+  position: relative;
+  text-align: center;
+}
+
 .hero-img {
   height: 45vh;
   object-fit: cover;
@@ -196,14 +203,10 @@ export default {
   color: white;
   position: absolute;
   font-weight: 700;
-  top: 30%;
+  position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  opacity: 1;
 }
 
 .card-img-top {
