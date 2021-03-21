@@ -1,6 +1,6 @@
 <template>
   <div class="w-100">
-    <hr />
+    <hr id="contactUsSection" />
     <div class="container-fluid">
       <div class="row">
         <div class="col p-0">
@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div id="contactUsSection" class="container p-3 bg-white">
+    <div class="container p-3 bg-white">
       <div class="row">
         <div class="col-12 col-md-4 d-flex flex-column">
           <h5>Find Us</h5>

@@ -62,7 +62,7 @@ img {
 }
 .carousel-control-prev,
 .carousel-control-next {
-  width: 5%;
+  width: 10%;
 }
 
 .responsive-ri {
@@ -71,7 +71,7 @@ img {
 
 @media screen and (min-width: 600px) {
   .responsive-ri {
-    font-size: 2em;
+    font-size: 3em;
   }
 }
 
@@ -82,6 +82,10 @@ img {
 
   img {
     width: 90%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
   }
 }
 </style>

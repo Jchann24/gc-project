@@ -2,36 +2,42 @@
   <div>
     <BaseHero img-src="img/bgImg/bg-6.jpg" />
     <div class="container">
-      <div class="row mt-4">
-        <div class="col-12 col-md-6 col-lg-9">
-          <nuxt-content :document="acneActive" />
+      <article>
+        <div class="row mt-4">
+          <div class="col-12 col-md-6 col-lg-9">
+            <nuxt-content :document="acneActive" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
+            <img src="img/bgImg/bg-5.jpg" class="custom-img w-100" alt="" />
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
-          <img src="img/bgImg/bg-5.jpg" class="custom-img w-100" alt="" />
+      </article>
+      <article>
+        <div class="row">
+          <div class="col"><nuxt-content :document="acneInjection" /></div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col"><nuxt-content :document="acneInjection" /></div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
-          <img src="img/bgImg/bg-5.jpg" class="custom-img w-100" alt="" />
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/bgImg/bg-5.jpg" class="custom-img w-100" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-9">
+            <nuxt-content :document="acneInjectionTwo" />
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-9">
-          <nuxt-content :document="acneInjectionTwo" />
+      </article>
+      <article>
+        <div class="row mt-4">
+          <div class="col-12">
+            <nuxt-content :document="acneScarRevision" />
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="img/bgImg/bg-1.jpg" class="w-100" alt="" />
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="img/bgImg/bg-1.jpg" class="w-100" alt="" />
+          </div>
         </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-12">
-          <nuxt-content :document="acneScarRevision" />
-        </div>
-        <div class="col-12 col-md-6">
-          <img src="img/bgImg/bg-1.jpg" class="w-100" alt="" />
-        </div>
-        <div class="col-12 col-md-6">
-          <img src="img/bgImg/bg-1.jpg" class="w-100" alt="" />
-        </div>
-      </div>
+      </article>
     </div>
   </div>
 </template>

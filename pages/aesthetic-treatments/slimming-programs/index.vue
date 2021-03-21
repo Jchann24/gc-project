@@ -2,33 +2,37 @@
   <div>
     <BaseHero img-src="img/bgImg/bg-6.jpg" />
     <div class="container">
-      <div class="row mt-4">
-        <h1>{{ bts.title }}</h1>
-      </div>
-      <div class="row">
-        <div class="col">
-          <nuxt-content :document="bts" />
+      <article>
+        <div class="row mt-4">
+          <h1>{{ bts.title }}</h1>
         </div>
-      </div>
-      <div class="row mt-2">
-        <div class="col-12 col-md-6 col-lg-3">
-          <img src="img/bgImg/bg-5.jpg" class="custom-img w-100" alt="" />
+        <div class="row">
+          <div class="col">
+            <nuxt-content :document="bts" />
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-9 mt-4 mt-md-0">
-          <nuxt-content :document="btsTwo" />
+        <div class="row mt-2">
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/bgImg/bg-5.jpg" class="custom-img w-100" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-9 mt-4 mt-md-0">
+            <nuxt-content :document="btsTwo" />
+          </div>
         </div>
-      </div>
+      </article>
     </div>
     <div class="container">
-      <div class="row mt-4">
-        <div class="col-12 col-md-6 col-lg-9 mt-4 mt-md-0">
-          <h1>{{ mesotheraphy.title }}</h1>
-          <nuxt-content :document="mesotheraphy" />
+      <article>
+        <div class="row mt-4">
+          <div class="col-12 col-md-6 col-lg-9 mt-4 mt-md-0">
+            <h1>{{ mesotheraphy.title }}</h1>
+            <nuxt-content :document="mesotheraphy" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/bgImg/bg-5.jpg" class="custom-img w-100" alt="" />
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <img src="img/bgImg/bg-5.jpg" class="custom-img w-100" alt="" />
-        </div>
-      </div>
+      </article>
     </div>
   </div>
 </template>

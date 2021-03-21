@@ -1,6 +1,9 @@
 <template>
   <div id="chatIconBtn" @mouseenter="show = true" @mouseleave="show = false">
-    <transition name="slide-fade">
+    <transition
+      name="slide-fade"
+      enter-active-class="delay-slide-fade-enter-active"
+    >
       <div v-if="show" class="chat-icon my-2">
         <img src="img/icons/chat-icon.svg" width="50" alt="" />
       </div>
@@ -10,7 +13,7 @@
         <img src="img/icons/chat-icon.svg" width="50" alt="" />
       </div>
     </transition>
-    <div class="chat-icon pe-none" style="opacity: 0.5">
+    <div class="chat-icon" style="opacity: 0.5" @click="show = !show">
       <img src="img/icons/chat-icon.svg" width="50" alt="" />
     </div>
   </div>
@@ -23,6 +26,19 @@ export default {
     return {
       show: false,
     }
+  },
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll() {
+      if (this.show) {
+        this.show = false
+      }
+    },
   },
 }
 </script>
@@ -53,11 +69,16 @@ export default {
 .slide-fade-enter-active {
   transition: all 0.3s ease;
 }
+
+.delay-slide-fade-enter-active {
+  transition-delay: 150ms;
+}
+
 .slide-fade-leave-active {
   transition: all 0.5s ease;
 }
-.slide-fade-enter, .slide-fade-leave-to
-/* .slide-fade-leave-active below version 2.1.8 */ {
+.slide-fade-enter,
+.slide-fade-leave-to {
   transform: translateY(10px);
   opacity: 0;
 }

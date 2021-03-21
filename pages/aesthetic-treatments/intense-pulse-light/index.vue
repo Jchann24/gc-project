@@ -2,19 +2,21 @@
   <div>
     <BaseHero img-src="img/bgImg/bg-6.jpg" />
     <div class="container">
-      <div class="row mt-4">
-        <div class="col-12 col-md-6 col-lg-4">
-          <img src="img/bgImg/bg-5.jpg" class="w-100" alt="" />
+      <article>
+        <div class="row mt-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="img/bgImg/bg-5.jpg" class="w-100" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
+            <nuxt-content :document="doc" />
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
-          <nuxt-content :document="doc" />
+        <div class="row mt-2">
+          <div class="col">
+            <nuxt-content :document="docTwo" />
+          </div>
         </div>
-      </div>
-      <div class="row mt-2">
-        <div class="col">
-          <nuxt-content :document="docTwo" />
-        </div>
-      </div>
+      </article>
     </div>
   </div>
 </template>
