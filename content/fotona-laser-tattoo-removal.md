@@ -1,7 +1,7 @@
 ---
 title: Fotona Laser Tattoo Removal
 meta_title: Fotona Laser Tattoo Removal - GC Aesthetics
-description: Fotona Laser Tattoo Remova - GC Aesthetics
+description: Fotona Laser Tattoo Removal - GC Aesthetics
 ---
 
 Perawatan penghilang tattoo dari Fotona adalah solusi tepat
