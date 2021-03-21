@@ -52,13 +52,9 @@
           </li>
           <li class="nav-item">
             <a
-              v-scroll-to="{
-                el: '#contactUsSection',
-                duration: 500,
-                easing: 'ease-in-out',
-              }"
               class="nav-link"
               href="javascript:void(0);"
+              @click="scrollContact"
               >BOOKING / CONTACT</a
             >
           </li>
@@ -75,6 +71,15 @@ export default {
     return {
       collapse: false,
     }
+  },
+  methods: {
+    scrollContact() {
+      if (this.$route.path !== '/') {
+        this.$router.push('/#contactUsSection')
+      } else {
+        this.$scrollTo('#contactUsSection', 100, { easing: 'ease' })
+      }
+    },
   },
 }
 </script>
