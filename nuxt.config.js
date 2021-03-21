@@ -24,7 +24,7 @@ export default {
     ],
   },
 
-  css: ['@/assets/scss/main.scss'],
+  css: ['@/assets/scss/main.scss', '@/assets/transition.css'],
 
   plugins: ['@/plugins/bootstrap.js'],
 
