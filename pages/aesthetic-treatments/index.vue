@@ -61,15 +61,15 @@
                     </p>
                   </div>
                   <div v-else>
-                    <div class="dropdown">
+                    <div class="dropdown d-flex justify-content-center">
                       <button
                         id="laserTreatmentDropdown"
-                        class="btn btn-secondary dropdown-toggle font-noto"
+                        class="btn btn-secondary dropdown-toggle font-noto w-100"
                         type="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        <u>Select here</u
+                        <u>Select Here</u
                         ><i class="ri-arrow-down-s-line ri-xs"></i>
                       </button>
                       <ul

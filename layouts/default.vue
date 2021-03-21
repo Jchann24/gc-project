@@ -4,9 +4,7 @@
     <main id="main" class="pb-5">
       <Nuxt />
     </main>
-    <div id="chatIconBtn" class="chat-icon">
-      <img src="img/icons/chat-icon.svg" width="50" alt="" />
-    </div>
+    <CoreTheChatButton />
   </div>
 </template>
 
@@ -50,27 +48,5 @@ h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-}
-
-#chatIconBtn {
-  position: fixed;
-  bottom: 30px;
-  right: 20px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 50%;
-}
-
-.chat-icon {
-  background-color: #c6bd95;
-  opacity: 0.5;
-  transition: all 0.5s ease;
-}
-.chat-icon:hover {
-  opacity: 1;
-  transition: all 0.5s ease;
 }
 </style>
