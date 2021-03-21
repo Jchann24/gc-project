@@ -16,6 +16,7 @@
           <IndexTheTreatmentAndTherapiesSection />
         </div>
       </div>
+      <IndexTheContactUs />
     </div>
   </div>
 </template>

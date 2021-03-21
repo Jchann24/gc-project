@@ -48,10 +48,19 @@
             </nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT US</a>
+            <a class="nav-link" href="javascript:void(0);">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">BOOKING / CONTACT</a>
+            <a
+              v-scroll-to="{
+                el: '#contactUsSection',
+                duration: 500,
+                easing: 'ease-in-out',
+              }"
+              class="nav-link"
+              href="javascript:void(0);"
+              >BOOKING / CONTACT</a
+            >
           </li>
         </ul>
       </div>

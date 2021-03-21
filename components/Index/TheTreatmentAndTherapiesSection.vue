@@ -29,7 +29,7 @@
                 >
                   <img
                     :src="`${item.icon}`"
-                    width="100"
+                    width="145"
                     :alt="`${item.name} icon`"
                   />
                   <h2 class="c-color-ornaments h4 text-center">

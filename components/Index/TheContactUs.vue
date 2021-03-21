@@ -1,7 +1,7 @@
 <template>
   <div class="w-100">
     <hr />
-    <footer class="footer mt-auto p-3 bg-white">
+    <div class="mt-4 p-3 bg-white">
       <div id="contactUsSection" class="container">
         <div class="row">
           <div class="col-12 col-md-4 d-flex flex-column">
@@ -90,7 +90,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   </div>
 </template>
 
