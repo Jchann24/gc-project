@@ -1,5 +1,9 @@
 <template>
-  <div id="chatIconBtn" @mouseenter="show = true" @mouseleave="show = false">
+  <div
+    id="chatIconBtn"
+    @mouseenter="isMobile ? null : handleMouse('enter')"
+    @mouseleave="isMobile ? null : handleMouse('leave')"
+  >
     <transition
       name="slide-fade"
       enter-active-class="delay-slide-fade-enter-active"
@@ -25,10 +29,12 @@ export default {
   data() {
     return {
       show: false,
+      isMobile: false,
     }
   },
   beforeMount() {
     window.addEventListener('scroll', this.handleScroll)
+    this.isMobile = window.matchMedia('(max-width: 992px)').matches
   },
   beforeDestroy() {
     window.removeEventListener('scroll', this.handleScroll)
@@ -36,6 +42,13 @@ export default {
   methods: {
     handleScroll() {
       if (this.show) {
+        this.show = false
+      }
+    },
+    handleMouse(action) {
+      if (action === 'enter') {
+        this.show = true
+      } else {
         this.show = false
       }
     },
