@@ -32,7 +32,12 @@ export default {
 
   buildModules: ['@nuxtjs/eslint-module'],
 
-  modules: ['@nuxtjs/style-resources', '@nuxt/content', 'vue-scrollto/nuxt'],
+  modules: [
+    '@nuxtjs/style-resources',
+    '@nuxt/content',
+    'vue-scrollto/nuxt',
+    '@nuxtjs/sitemap',
+  ],
 
   styleResources: {
     scss: '@/assets/scss/_variables.scss',
@@ -40,5 +45,10 @@ export default {
 
   build: {
     extractCSS: true,
+  },
+
+  sitemap: {
+    hostname: 'https://jasonnchann24.github.io/gc-project',
+    gzip: true,
   },
 }
