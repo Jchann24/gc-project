@@ -1,6 +1,6 @@
 <template>
   <section id="treatmentAndTherapies">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row mt-4">
         <div class="col-12 text-center">
           <h1>Treatment and Therapies</h1>

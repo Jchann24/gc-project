@@ -1,7 +1,7 @@
 <template>
   <div>
     <CoreTheNavbar />
-    <main id="main" class="pb-5">
+    <main id="main">
       <Nuxt />
     </main>
     <CoreTheChatButton />

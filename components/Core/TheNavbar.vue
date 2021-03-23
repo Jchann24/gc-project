@@ -80,7 +80,10 @@ export default {
       if (this.$route.path !== '/') {
         this.$router.push('/#contactUsSection')
       } else {
-        this.$scrollTo('#contactUsSection', 300, { easing: 'ease' })
+        this.$scrollTo('#contactUsSection', 300, {
+          easing: 'ease',
+          offset: -125,
+        })
       }
     },
     closeNavbar() {
