@@ -45,7 +45,9 @@
             </nuxt-link>
           </li>
           <li class="nav-item" @click="closeNavbar">
-            <a class="nav-link" href="javascript:void(0);">ABOUT US</a>
+            <nuxt-link to="/about-us" class="nav-link" aria-current="page"
+              >ABOUT US</nuxt-link
+            >
           </li>
           <li class="nav-item" @click="closeNavbar">
             <a

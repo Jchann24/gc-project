@@ -49,4 +49,43 @@ h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c6bd95;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa073;
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+}
+
+.hero-img {
+  height: 45vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+  opacity: 0.8;
+}
+
+.overlay-text {
+  color: white;
+  position: absolute;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>

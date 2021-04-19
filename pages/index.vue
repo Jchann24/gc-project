@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="row mt-4">
-        <div class="col-12">
+        <div class="col-12 col-md-11 col-lg-11 mx-auto">
           <IndexTheTreatmentAndTherapiesSection />
         </div>
       </div>

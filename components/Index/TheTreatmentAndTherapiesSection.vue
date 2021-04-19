@@ -6,11 +6,11 @@
           <h1>Treatment and Therapies</h1>
         </div>
       </div>
-      <div class="row mt-2 g-4">
+      <div class="row mt-2 g-5">
         <div
           v-for="(item, index) in cardItems"
           :key="index"
-          class="col-12 col-md-6 col-lg-4"
+          class="col-12 col-md-6 col-xl-4"
         >
           <div class="card border-0" style="height: 350px">
             <figure class="tint mb-0">

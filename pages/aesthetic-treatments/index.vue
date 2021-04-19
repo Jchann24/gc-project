@@ -196,28 +196,6 @@ export default {
 </script>
 
 <style scoped>
-.hero-container {
-  position: relative;
-  text-align: center;
-}
-
-.hero-img {
-  height: 45vh;
-  object-fit: cover;
-  object-position: 50% 50%;
-  opacity: 0.8;
-}
-
-.overlay-text {
-  color: white;
-  position: absolute;
-  font-weight: 700;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .card-img-top {
   border-radius: 30px;
 }
