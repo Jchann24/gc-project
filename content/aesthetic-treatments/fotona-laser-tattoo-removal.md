@@ -2,7 +2,23 @@
 title: Fotona Laser Tattoo Removal
 meta_title: Fotona Laser Tattoo Removal - GC Aesthetics
 description: Fotona Laser Tattoo Removal - GC Aesthetics
+heroImg: img/bgImg/bg-6.jpg
+mainImg: img/bgImg/bg-3.jpg
 ---
+
+<div class="container">
+<div class="row mt-4">
+
+# Fotona Laser Tattoo Removal
+
+</div>
+<div class="row mt-4">
+<div class="col-12 col-md-6 col-lg-4">
+
+<img :src="mainImg" class="w-100" alt="Fotona Laser Tattoo Removal image" />
+
+</div>
+<div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
 
 Perawatan penghilang tattoo dari Fotona adalah solusi tepat
 menghilangkan tattoo dengan range warna tattoo yang luas dari warna
@@ -21,3 +37,8 @@ Prosedur Tattoo removal hanya membutuhkan beberapa menit, tetapi
 beberapa perawatan diperlukan untuk menghilangkan tato sepenuhnya.
 Interval empat minggu antar sesi diperlukan untuk menghilangkan
 residu pigment tattoo
+
+</div>
+</div>
+
+</div>

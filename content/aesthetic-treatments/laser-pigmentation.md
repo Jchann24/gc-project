@@ -2,7 +2,23 @@
 title: Laser Pigmentation
 meta_title: Laser Pigmentation - GC Aesthetics
 description: Laser Pigmentation - GC Aesthetics
+heroImg: img/bgImg/bg-6.jpg
+mainImg: img/bgImg/bg-3.jpg
 ---
+
+<div class="container">
+<div class="row mt-4">
+
+# Laser Pigmentation
+
+</div>
+<div class="row mt-4">
+<div class="col-12 col-md-6 col-lg-4">
+
+<img :src="mainImg" class="w-100" alt="Laser Pigmentation image" />
+
+</div>
+<div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
 
 Teknologi Fotona QX MaxTM Laser meremajakan, mempercerah pigmen
 kulit. Perawatan berteknologi tinggi dari Fotona digunakan untuk para
@@ -18,6 +34,7 @@ laser juga dapat merangsang produksi kolagen dan mengurangi ukuran
 pori.
 
 Kondisi yang tepat untuk perawatan Laser pigmentasi :
+
 - Ephelides (bitnik freckles)
 - Tahi Lalat (Moles)
 - Bintik matahari
@@ -29,3 +46,8 @@ Tergantung pada jenis pigmentasi, umumnya empat hingga delapan
 perawatan direkomendasikan untuk mengamati pengurangan
 pigmentasi yang signifikan. Setiap perawatan membutuhkan waktu
 sekitar 30 menit, dengan waktu pemulihan minimal.
+
+</div>
+</div>
+
+</div>

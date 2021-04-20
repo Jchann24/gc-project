@@ -73,9 +73,7 @@
                         <li v-for="(desc, idx) in item.description" :key="idx">
                           <nuxt-link
                             class="dropdown-item text-white"
-                            :to="`/aesthetic-treatments/${item.slug}/${getSlug(
-                              desc
-                            )}`"
+                            :to="`/aesthetic-treatments/${getSlug(desc)}`"
                             >{{ desc }}</nuxt-link
                           >
                         </li>
