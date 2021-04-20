@@ -12,6 +12,18 @@ export default {
     const document = await $content('aesthetic-treatments', params.slug).fetch()
     return { document }
   },
+  head() {
+    return {
+      title: this.document.meta_title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.document.description,
+        },
+      ],
+    }
+  },
 }
 </script>
 
