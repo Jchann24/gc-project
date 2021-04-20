@@ -4,7 +4,7 @@ meta_title: Special Offers - GC Aesthetics
 description: Special Offers - GC Aesthetics
 ---
 
-<div class="container pb-5 px-0 mb-5">
+<div class="container pb-5 px-3 mb-5">
 <div class="row mt-4">
 <div class="col text-center">
 
