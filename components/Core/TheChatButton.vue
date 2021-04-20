@@ -8,13 +8,25 @@
       name="slide-fade"
       enter-active-class="delay-slide-fade-enter-active"
     >
-      <div v-if="show" class="chat-icon my-2">
-        <img src="img/icons/chat-icon.svg" width="50" alt="" />
+      <div v-if="show" class="d-flex justify-content-center chat-icon my-2">
+        <a
+          href="https://wa.me/628119158967?text=Hello,%20GC%20Aesthetics"
+          target="_blank"
+          class="text-decoration-none c-color-title"
+          rel="noopener noreferrer"
+        >
+          <i class="ri-whatsapp-line ri-2x"></i
+        ></a>
       </div>
     </transition>
     <transition name="slide-fade">
-      <div v-if="show" class="chat-icon my-2">
-        <img src="img/icons/chat-icon.svg" width="50" alt="" />
+      <div v-if="show" class="d-flex justify-content-center chat-icon my-2">
+        <a
+          href="tel:+62-811-9158-967"
+          class="text-decoration-none c-color-title"
+        >
+          <i class="ri-phone-line ri-2x"></i
+        ></a>
       </div>
     </transition>
     <div class="chat-icon" style="opacity: 0.5" @click="show = !show">

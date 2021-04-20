@@ -32,7 +32,9 @@
                 <span class="badge rounded-pill c-bg-title"
                   ><i class="ri-phone-line text-white ri-sm"></i>
                 </span>
-                <a href="tel:+62-811-9158-967" class="text-decoration-none"
+                <a
+                  href="tel:+62-811-9158-967"
+                  class="text-decoration-none c-color-title"
                   >+62-811-9158-967</a
                 >
               </p>
@@ -42,7 +44,7 @@
                 </span>
                 <a
                   href="mailto:gcaestheticsclinic@gmail.com"
-                  class="text-decoration-none"
+                  class="text-decoration-none c-color-title"
                   >gcaestheticsclinic@gmail.com</a
                 >
               </p>
@@ -54,13 +56,25 @@
                 <span class="badge rounded-pill c-bg-title"
                   ><i class="ri-instagram-line text-white ri-sm"></i>
                 </span>
-                gc.aesthetics.id
+                <a
+                  class="text-decoration-none c-color-title"
+                  href="https://instagram.com/gc.aesthetics.id"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >gc.aesthetics.id</a
+                >
               </p>
               <p>
                 <span class="badge rounded-pill c-bg-title"
                   ><i class="ri-facebook-line text-white ri-sm"></i>
                 </span>
-                gcaestheticsclinic
+                <a
+                  class="text-decoration-none c-color-title"
+                  href="https://www.facebook.com/gcaestheticsclinic/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >gcaestheticsclinic</a
+                >
               </p>
             </div>
           </div>
@@ -70,18 +84,37 @@
         <div class="col-12 col-md-4 mb-2">
           <h5>GC Aesthetics</h5>
           <div class="d-flex align-items-center justify-content-around w-50">
-            <span class="badge rounded-pill c-bg-title"
-              ><i class="ri-phone-line text-white ri-xs"></i>
-            </span>
-            <span class="badge rounded-pill c-bg-title"
-              ><i class="ri-mail-line text-white ri-xs"></i>
-            </span>
-            <span class="badge rounded-pill c-bg-title"
-              ><i class="ri-instagram-line text-white ri-xs"></i>
-            </span>
-            <span class="badge rounded-pill c-bg-title"
-              ><i class="ri-facebook-line text-white ri-xs"></i>
-            </span>
+            <a
+              href="tel:+62-811-9158-967"
+              class="text-decoration-none c-color-title"
+            >
+              <span class="badge rounded-pill c-bg-title"
+                ><i class="ri-phone-line text-white ri-sm"></i> </span
+            ></a>
+
+            <a
+              href="mailto:gcaestheticsclinic@gmail.com"
+              class="text-decoration-none c-color-title"
+              ><span class="badge rounded-pill c-bg-title"
+                ><i class="ri-mail-line text-white ri-sm"></i> </span
+            ></a>
+
+            <a
+              class="text-decoration-none c-color-title"
+              href="https://instagram.com/gc.aesthetics.id"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span class="badge rounded-pill c-bg-title"
+                ><i class="ri-instagram-line text-white ri-sm"></i> </span
+            ></a>
+            <a
+              class="text-decoration-none c-color-title"
+              href="https://www.facebook.com/gcaestheticsclinic/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span class="badge rounded-pill c-bg-title"
+                ><i class="ri-facebook-line text-white ri-sm"></i> </span
+            ></a>
           </div>
         </div>
         <div class="col-12 col-md-8 mt-3 mt-md-0">
