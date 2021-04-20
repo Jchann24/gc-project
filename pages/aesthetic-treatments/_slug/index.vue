@@ -1,19 +1,20 @@
 <template>
   <div class="mb-5">
     <p v-if="!allLoaded" class="text-center mt-5">Loading ...</p>
-    <BaseHero
-      v-show="allLoaded"
-      :img-src="document.heroImg"
-      :title="document.heroText"
-      @loaded="
-        () => {
-          allLoaded = true
-        }
-      "
-    />
-    <hr class="mx-5" />
-    <div class="mt-4">
-      <nuxt-content v-show="allLoaded" :document="document" />
+    <div v-show="allLoaded">
+      <BaseHero
+        :img-src="document.heroImg"
+        :title="document.heroText"
+        @loaded="
+          () => {
+            allLoaded = true
+          }
+        "
+      />
+      <hr class="mx-5" />
+      <div class="mt-4">
+        <nuxt-content :document="document" />
+      </div>
     </div>
   </div>
 </template>
