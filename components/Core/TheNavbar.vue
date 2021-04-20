@@ -1,8 +1,13 @@
 <template>
   <nav class="navbar navbar-expand-lg c-bg-navbar py-2 w-100">
     <div class="container-fluid d-flex align-items-center">
-      <nuxt-link to="/" class="navbar-brand d-lg-none" @click="closeNavbar">
-        <img src="img/GC_logo_white.png" width="50" alt="gc aesthetic logo" />
+      <nuxt-link to="/" class="navbar-brand d-lg-none">
+        <img
+          src="img/GC_logo_white.png"
+          width="50"
+          alt="gc aesthetic logo"
+          @click="closeNavbar"
+        />
       </nuxt-link>
       <button
         id="navbarToggle"

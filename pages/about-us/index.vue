@@ -1,16 +1,11 @@
 <template>
   <div class="mb-5">
     <p v-if="!allLoaded" class="text-center mt-5">Loading ...</p>
-    <BaseHeroText
-      v-show="allLoaded"
-      :hero-img="document.heroImg"
-      :overlay-text="document.overlayText"
-      @loaded="
-        () => {
-          allLoaded = true
-        }
-      "
-    />
+    <div class="row">
+      <div class="col mx-0 px-0">
+        <IndexTheCarousel />
+      </div>
+    </div>
     <article>
       <nuxt-content v-show="allLoaded" :document="document" />
     </article>
@@ -26,7 +21,7 @@ export default {
   },
   data() {
     return {
-      allLoaded: false,
+      allLoaded: true,
     }
   },
   head() {
