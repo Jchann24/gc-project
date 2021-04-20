@@ -27,16 +27,16 @@ hifuImg: img/bgImg/bg-2.jpg
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
 
-Laser hair removal adalah prosedur yang dilakukan oleh dokter kulit dengan
-menggunakan mesin pemancar laser, yang menghasilkan sinar cahaya yang
-kuat dan berdenyut.
+**Laser Hair Removal** adalah prosedur yang dilakukan oleh dokter kulit dengan menggunakan mesin
+pemancar laser, yang menghasilkan sinar cahaya yang kuat dan berdenyut.
 
-Cahaya ini diarahkan kekulit, menyebabkan kerusakan selektif pada folikel
-rambut, sumber pertumbuhan rambut sementara tanpa merusak atau
-memanaskan sisa kulit.
+Cahaya ini diarahkan ke kulit, menyebabkan kerusakan selektif pada folikel rambut,
+sumber pertumbuhan rambut sementara tanpa merusak atau memanaskan sisa kulit.
 
-Treatment ini mampu menyamarkan sampai menghilangkan rambut di yang
-tidak di inginkan di bagian seperti underarm, bikini, kaki secara permanen.
+Treatment ini mampu menyamarkan sampai menghilangkan rambut di yang tidak di inginkan di
+bagian seperti underarm, bikini, kaki secara permanen.
+
+Prosedur ini membutuhkan pengulangan, sesuai dengan kondisi pasien dan konsultasi GC clinic.
 
 </div>
 </div>

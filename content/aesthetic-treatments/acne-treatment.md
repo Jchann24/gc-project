@@ -46,9 +46,9 @@ Manfaat Acne active Laser :
 
 # Acne Injection
 
-Perawatan acne injection pada area wajah untuk membunuh bakteri penyebab jerawat dengan metode suntik, yang berfungsi
-untuk menuntaskan peradangan pada jerawat. suntikan kortison dapat membantu mengurangi kemerahan, bengkak, dan nyeri
-akibat peradangan jerawat yang parah dalam beberapa hari. Klinik kami mengantarkan prosedur acne injection dengan produk
+Perawatan **Acne Injection** pada area wajah untuk membunuh bakteri penyebab jerawat dengan metode injeksi langsung pada acne dengan kondisi tertentu.
+Injeksi ini berfungsi untuk menuntaskan peradangan pada jerawat. Suntikan kortison dapat membantu mengurangi kemerahan, bengkak,
+dan nyeri akibat peradangan jerawat yang parah dalam beberapa hari. Klinik kami mengantarkan prosedur **Acne Injection** dengan produk
 kualitas tertinggi untuk mengatasi inflamasi jerawat dengan efek samping yang minim.
 
 </div>
@@ -67,8 +67,8 @@ Benefit Acne injection
 - Mengeringkan jerawat.
 - Hasil perawatan instant
 
-Perawatan Acne injection dapat di lakukan untuk jerawat pada wajah
-dan area badan lainnya. Sangat di rekomendasikan untuk pasien yang
+Perawatan Acne injection dapat dilakukan untuk jerawat pada wajah
+dan area badan lainnya. Sangat direkomendasikan untuk pasien yang
 membutuhkan perawatan jerawat dalam waktu yang singkat.
 
 </div>
@@ -81,16 +81,18 @@ membutuhkan perawatan jerawat dalam waktu yang singkat.
 
 # Acne Scar Revision
 
-Perawatan laser untuk Bekas Jerawat didasarkan pada prosedur pelapisan ulang kulit yang tepat dan lembut di mana laser Er:
-YAG diserap oleh lapisan mikro atas kulit untuk menguapkan kulit yang terluka dan merangsang produksi kolagen baru di
-lapisan dermis. Mengobati jerawat dengan laser adalah metode yang paling tidak invasif dan paling ramah pasien. Terlebih lagi,
-tidak diperlukan pengobatan dan pemulihan total dicapai dalam beberapa hari.
+Perawatan laser untuk Bekas Jerawat didasarkan pada prosedur perlukaan minimal pada kulit dengan kekuatan dan
+kedalaman yang tepat dan lembut di mana laser Er: YAG diserap oleh lapisan mikro atas kulit untuk memperbaiki
+kulit yang terluka dan merangsang produksi kolagen baru di lapisan dermis.
+Treatment ini dapat dikombinasikan dengan PRP maupun serum Growth Factor lainnya untuk hasil lebih maksimal.
 
 Bekas jerawat berbeda dari orang ke orang dan dapat diklasifikasikan sebagai berikut:
 
 - Bekas luka bergulir tampak seperti bukit dan lembah, tanpa batas yang tajam.
 - Bekas luka berlubang, muncul sebagai cekungan kecil, bulat, dalam yang berakhir di dasar pinpoint.
 - Bekas luka hipertrofik dan nodular sering ditemukan akibat jerawat di dada atau punggung.
+
+Perbaikan scar pada pasien dapat terlihat setelah 4-6x kombinasi prosedur ini, dan dapat bervariasi sesuai kondisi klinis dan pola aktivitas pasien.
 
 </div>
 

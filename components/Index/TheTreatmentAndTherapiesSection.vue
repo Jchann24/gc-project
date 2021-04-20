@@ -6,7 +6,7 @@
           <h1>Treatment and Therapies</h1>
         </div>
       </div>
-      <div class="row mt-2 g-5 justify-content-center">
+      <div class="row mt-2 gx-5 gy-4 justify-content-center">
         <div
           v-for="(item, index) in cardItems"
           :key="index"

@@ -21,13 +21,13 @@
                   <span class="badge rounded-pill c-bg-title"
                     ><i class="ri-phone-line text-white ri-sm"></i>
                   </span>
-                  +62-xxx-xxxx-xxxx
+                  <a href="tel:+62-811-9158-967">+62-811-9158-967</a>
                 </p>
                 <p>
                   <span class="badge rounded-pill c-bg-title"
                     ><i class="ri-mail-line text-white ri-sm"></i>
                   </span>
-                  mail@mail.com
+                  gcaestheticsclinic@mail.com
                 </p>
               </div>
               <div

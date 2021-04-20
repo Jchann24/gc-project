@@ -2,6 +2,8 @@
 title: Special Offers
 meta_title: Special Offers - GC Aesthetics
 description: Special Offers - GC Aesthetics
+heroImg: img/bgImg/bg-2.jpg
+overlayText: Special Offers
 ---
 
 <div class="container pb-5 px-3 mb-5">
@@ -14,31 +16,18 @@ description: Special Offers - GC Aesthetics
 </div>
 
 <div class="row mt-4">
-<div class="col-12 text-center">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae orci ut eros consequat tempor
-eu ac lectus. Aliquam porta neque et justo lobortis porttitor. Curabitur dapibus, enim in blandit
-dapibus, neque ex hendrerit est, vel vulputate nibh massa nec sem. Nulla facilisi. Cras tempor ex a orci
-interdum, eget suscipit libero venenatis. Fusce scelerisque interdum nisi quis aliquam. Donec fermentum
-lectus nisi, ac porttitor sapien scelerisque in. Suspendisse at blandit turpis.
-
-</div>
-</div>
-
-<div class="row mt-4">
-<div class="col-12 col-lg-4">
+<div class="col-12 col-lg-5">
 
 ## Now Happening
 
-- lorem ipsum dolor sit amet.
-- lorem ipsum dolor sit amet.
-- lorem ipsum dolor sit amet.
-- lorem ipsum dolor sit amet.
-- lorem ipsum dolor sit amet.
-- lorem ipsum dolor sit amet.
+- Slimming Package Best Deals! Start from Rp. 6.500.000,-
+- Healthy Package starts from Rp. 399.000,-
+- Facial Hydromagic Disc Up To 30% Off!
+- Rapid Antigen 15 mins only for Rp. 250.000,-
+- and many more offers.
 
 </div>
-<div class="col-12 col-lg-8 mt-4 mt-lg-0">
+<div class="col-12 col-lg-7 mt-4 mt-lg-0">
 
 ## More Offers?
 

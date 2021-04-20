@@ -64,12 +64,12 @@ normal
 </div>
 <div class="col-12 col-md-6 col-lg-9">
 
-Perawatan Dermal Fillers adalah Gel HA yang dispesialisasikan oleh GC clinic
-diinjeksikan ke dalam kulit untuk menambah atau mengembalikan volume
+Perawatan **Dermal Fillers** adalah **Gel HA** yang dispesialisasikan oleh GC Aesthetics Clinic
+yang diinjeksikan ke dalam kulit untuk menambah atau mengembalikan volume
 bagian wajah tertentu. Fillers memiliki berbagai kepadatan. Hal ini tergantung
 dari area mana dan tujuan dari penyuntikan filler tersebut. Penyuntikan filler
 biasanya dilakukan untuk mengangkat atau membentuk area tertentu,
-membentuk wajah (facial reshaping) menjadi lebih simetris, mengisi garis dan
+membentuk wajah _(facial reshaping)_ menjadi lebih simetris, mengisi garis dan
 kerutan, atau menyempurnakan bagian wajah tertentu yang cenderung kendur,
 mengembalikan volume wajah secara alami sehingga tampak lebih muda.
 
@@ -98,9 +98,9 @@ yang relative cepat setelah perawatan.
 
 # Hydra Facial
 
-Perawatan HydraFacial adalah perawatan pembersihan dengan mengangkat sel kulit mati berlebih dari kulit. Dengan serum Hydra
-facial dioleskan ke kulit untuk menghilangkan kotoran dan minyak yang menyumbat pori-pori. Kemudian, Ujung HydraPeel
-digunakan untuk menyedot komedo, kotoran, minyak, dan kotoran, sementara serum yang menghidrasi, mengencangkan (plump),
+Perawatan **Hydra Facial** adalah perawatan pembersihan dengan mengangkat sel kulit mati berlebih dari kulit. Dengan **serum Hydra
+Facial** dioleskan ke kulit untuk menghilangkan kotoran dan minyak yang menyumbat pori-pori. Kemudian, ujung **HydraPeel**
+digunakan untuk menyedot komedo, kotoran, minyak, dan kotoran, sementara serum yang menghidrasi, mengencangkan _(plump)_,
 dan menutrisi dioleskan secara bersamaan ke kulit.
 
 </div>
@@ -176,12 +176,15 @@ Benefit chemical peeling sebagai berikut
 <div class="row mt-4">
 <div class="col">
 
-# Salmon DNA
+# Salmon PDRN (Polydeoxyribonucleotide Injection)
 
-Perawatan kecantikan dengan DNA atau Deoxyribonucleic Acid dari ikan salmon mampu menjaga peremajaan kulit Anda.
-Kandungan utamanya berfungsi untuk meremajakan struktur kulit dan meningkatkan kilau wajah. Injeksi Polydeoxyribonucleotide
-Salmon DNA merupakan bagian dari segmen DNA yang bisa dikembangkan sebagai salah satu obat terutama untuk fungsi
-perbaikan dan regenerasi serta pembangunan sel dan jaringan.
+Perawatan kecantikan dengan **PDRN (Polydeoxyribonucleotide Injection)** dari ikan salmon mampu menjaga peremajaan kulit Anda.
+Kandungan utamanya berfungsi untuk meremajakan struktur kulit dan meningkatkan kilau wajah. **Injeksi Polydeoxyribonucleotide
+Salmon DNA** merupakan bagian dari segmen DNA yang bisa dikembangkan sebagai salah satu obat terutama untuk fungsi perbaikan dan
+regenerasi serta pembangunan sel dan jaringan.
+
+Peremajaan kulit skin booster klinik kami menggunakan **Vital Injector** sistem multi-jarum yang dipatenkan
+dimana zat seperti asam hialuronat, vitamin, PRP dan lainnya dapat disuntikkan dengan aman dan mudah ke lapisan kulit yang lebih dalam.
 
 </div>
 </div>
@@ -194,16 +197,11 @@ perbaikan dan regenerasi serta pembangunan sel dan jaringan.
 </div>
 <div class="col-12 col-md-6 col-lg-9">
 
-DNA salmon yang langsung diinjeksikan kekulit memiliki sejumlah
-manfaat, dikarenakan peptide dari DNA salmon terbukti bisa
-membantu meregenerasi kulit sekaligus mencerahkan warna kulit,
-menciptakan kulit glowing pada pasien
+**PDRN Salmon** yang langsung diinjeksikan kekulit memiliki sejumlah manfaat, dikarenakan peptide
+dari DNA salmon terbukti bisa membantu meregenerasi kulit sekaligus mencerahkan warna kulit, menciptakan kulit glowing pada pasien
 
-Perawatan wajah dengan teknologi DNA salmon memerlukan
-tindakan selama minimal 2-3 kali
-tergantung dari jenis kulit Anda. Setelah semua prosedur
-dilaksanakan, efek dari perawatan ini dapat bertahan hingga 3
-bulan, dengan dukungan perawatan kulit
+Perawatan wajah dengan teknologi DNA salmon memerlukan tindakan selama minimal 2-3 kali
+tergantung dari jenis kulit Anda. Setelah semua prosedur dilaksanakan, efek dari perawatan ini dapat bertahan hingga 3 bulan, dengan dukungan perawatan kulit.
 
 </div>
 </div>
@@ -215,14 +213,12 @@ bulan, dengan dukungan perawatan kulit
 
 # Platelet Rich Plasma
 
-Platelet Rich Plasma merupakan “Vampire Treatment” yang menggu-
-nakan darah dan plasma darah dari pasien sendiri yang di aplikasikan
-
-dengan prosedur sentrifugasi yang setelah di proses akan menghasilkan
-kadar trombosit 5 sampai 8 kali lipat relatif konsentrasi trombosit dalam
-tubuh yang sangat berfungsi dalam proses regenerasi sel-sel yang sudah
-mati, menyembuhkan bekas luka seperti luka bekas jerawat dan garis
-stretch mark lainnya dan memberikan efek peremajaan kulit
+**Platelet Rich Plasma** merupakan “Vampire Treatment” yang menggunakan darah dan plasma
+darah dari pasien sendiri yang di aplikasikan dengan prosedur sentrifugasi yang setelah diproses
+akan menghasilkan kadar faktor pertumbuhan yang dihasilkan pada platelet sampai 8 kali lipat relatif
+konsentrasi platelet normal dalam tubuh yang sangat berfungsi dalam proses regenerasi sel-sel yang sudah mati,
+menyembuhkan bekas luka seperti luka bekas jerawat dan garis stretch mark lainnya dan memberikan efek peremajaan kulit.
+Terapi ini bersifat autologus yang artinya dari tubuh pasien sendiri sehingga meminimalisir kemungkinan terjadinya alergi akibat produk jadi yang beredar pasaran.
 
 </div>
 <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
@@ -239,16 +235,18 @@ stretch mark lainnya dan memberikan efek peremajaan kulit
 
 # Hydra Glow
 
-Hydra Glow Skin Booster dirancang dengan perpaduan Hyaluronic Acid,
-Gluthathione & Peptide yang di masukan secara langsung ke dalam
-lapisan kulit untuk meningkatkan kelembabpan kulit sehingga terasa
+**Hydra Glow Skin Booster** dirancang dengan perpaduan **Hyaluronic Acid,
+Glutathione & Peptide** yang dimasukan secara langsung ke dalam
+lapisan kulit untuk meningkatkan kelembapan kulit sehingga terasa
 lebih halus dan kenyal. mengembalikan keseimbangan air dalam kulit,
-
 meningkatkan elastisitas dan struktur kulit, serta meningkatkan kekeny-
-alan kulit sehingga kulit menjadi segar dan terlihat awet muda. Sangat di
-
-anjurkan untuk pria & Wanita berumur 30 tahun ke atas atau kulit yang
+alan kulit sehingga kulit menjadi segar dan terlihat awet muda. Sangat dianjurkan untuk pria & Wanita berumur 30 tahun ke atas atau kulit yang
 tampak dehidrasi
+
+Catatan:
+Rangkaian treatment **Hydra Glow Skin Booster** ini membutuhkan 3x tindakan dengan interval 1 bulan.
+Hasil akan bertahan mulai dari 6-12 bulan.
+Dikombinasikan dengan rangkaian krim perawatan wajah dari Gc Aesthetics, hasil akan bertahan lebih lama.
 
 </div>
 <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">

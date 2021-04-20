@@ -1,6 +1,19 @@
 <template>
   <div>
-    <nuxt-content :document="document" />
+    <p v-if="!allLoaded" class="text-center mt-5">Loading ...</p>
+    <BaseHeroText
+      v-show="allLoaded"
+      :hero-img="document.heroImg"
+      :overlay-text="document.overlayText"
+      @loaded="
+        () => {
+          allLoaded = true
+        }
+      "
+    />
+    <article>
+      <nuxt-content :document="document" />
+    </article>
   </div>
 </template>
 
@@ -10,6 +23,11 @@ export default {
   async asyncData({ $content }) {
     const document = await $content('special-offers').fetch()
     return { document }
+  },
+  data() {
+    return {
+      allLoaded: false,
+    }
   },
   head() {
     return {

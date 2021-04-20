@@ -163,7 +163,7 @@ export default {
         {
           name: 'Acupunture',
           icon: 'img/icons/GC-Icon-10.svg',
-          slug: '',
+          slug: 'acupunture',
           description: [],
         },
       ],

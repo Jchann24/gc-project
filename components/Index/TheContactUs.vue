@@ -1,6 +1,6 @@
 <template>
   <div class="w-100 p-0">
-    <hr id="contactUsSection" class="my-5" />
+    <hr id="contactUsSection" class="my-5 mx-5" />
     <div class="container-fluid p-0 m-0">
       <div class="row">
         <div class="col p-0 text-center">
@@ -32,13 +32,19 @@
                 <span class="badge rounded-pill c-bg-title"
                   ><i class="ri-phone-line text-white ri-sm"></i>
                 </span>
-                +62-xxx-xxxx-xxxx
+                <a href="tel:+62-811-9158-967" class="text-decoration-none"
+                  >+62-811-9158-967</a
+                >
               </p>
               <p>
                 <span class="badge rounded-pill c-bg-title"
                   ><i class="ri-mail-line text-white ri-sm"></i>
                 </span>
-                mail@mail.com
+                <a
+                  href="mailto:gcaestheticsclinic@gmail.com"
+                  class="text-decoration-none"
+                  >gcaestheticsclinic@gmail.com</a
+                >
               </p>
             </div>
             <div

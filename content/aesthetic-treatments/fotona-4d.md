@@ -21,32 +21,32 @@ mainImg: img/bgImg/bg-3.jpg
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
 
-Pengencangan wajah dengan laser Fotona SP Dynamis adalah metode
+**Pengencangan wajah dengan laser Fotona SP Dynamis** adalah metode
 non-invasif, non-ablatif untuk mengembalikan penampilan yang lebih
 muda di wajah dan leher.
 
-Perawatan laser Fotona 4D tidak seperti perawatan laser lain yang
+Perawatan laser **Fotona 4D** tidak seperti perawatan laser lain yang
 tersedia di pasaran saat ini. Dynamis, yang terbaru dalam teknologi
 laser, dengan lembut meremajakan dan mengembalikan keremajaan
 pada kulit wajah dan leher.
 
 Benefit dari laser Fotona 4D :
 
-- Metode perawatan laser yang sangat minim invasive
-- Tanpa Downtime
-- Sistem Laser canggih yang memancarkan gelombang dan
+- Metode perawatan laser yang sangat minim invasif
+- Tanpa _downtime_
+- Sistem laser canggih yang memancarkan gelombang dan
   energi yang lebih maximal dibanding teknologi laser
   lainnya, menghasilkan hasil yang lebih maximal
-- Perawatan Laser dengan tingkat presisi tertinggi
+- Perawatan laser dengan tingkat presisi tertinggi
 
 Biasanya pasien akan mengalami kemerahan setelah perawatan, ini
 biasanya hilang dengan sendirinya dalam jangka waktu singkat dan
-Anda akan dapat melihat hasil treatment anda hanya dengan satu
+Anda akan dapat melihat hasil perawatan Anda hanya dengan satu
 perawatan.
 
 Tergantung pada area yang dirawat, rangkaian perawatan 4-8 kali yang
 tersebar dalam jarak 3-4 minggu direkomendasikan untuk merasakan
-manfaat penuh dari SP Dynamis Laser.
+manfaat penuh dari **SP Dynamis Laser**.
 
 </div>
 </div>
