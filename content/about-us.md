@@ -1,4 +1,7 @@
 ---
+title: About Us
+meta_title: About Us - GC Aesthetics
+description: About Us - GC Aesthetics
 heroImg: img/bgImg/bg-2.jpg
 overlayText: About Us
 mainImage: img/bgImg/bg-2.jpg

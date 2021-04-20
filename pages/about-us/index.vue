@@ -17,6 +17,18 @@ export default {
     const document = await $content('about-us').fetch()
     return { document }
   },
+  head() {
+    return {
+      title: this.document.meta_title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.document.description,
+        },
+      ],
+    }
+  },
 }
 </script>
 

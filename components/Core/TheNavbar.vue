@@ -22,15 +22,14 @@
           class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center justify-content-evenly w-100"
         >
           <li class="nav-item" @click="closeNavbar">
-            <nuxt-link
-              to="/aesthetic-treatments"
-              class="nav-link"
-              aria-current="page"
+            <nuxt-link to="/aesthetic-treatments" class="nav-link"
               >AESTHETIC TREATMENTS</nuxt-link
             >
           </li>
           <li class="nav-item" @click="closeNavbar">
-            <a class="nav-link" href="#">SPECIAL OFFERS</a>
+            <nuxt-link to="/special-offers" class="nav-link"
+              >SPECIAL OFFERS</nuxt-link
+            >
           </li>
           <li
             class="nav-item d-flex align-items-center justify-content-center text-white d-none d-lg-block"
@@ -45,9 +44,7 @@
             </nuxt-link>
           </li>
           <li class="nav-item" @click="closeNavbar">
-            <nuxt-link to="/about-us" class="nav-link" aria-current="page"
-              >ABOUT US</nuxt-link
-            >
+            <nuxt-link to="/about-us" class="nav-link">ABOUT US</nuxt-link>
           </li>
           <li class="nav-item" @click="closeNavbar">
             <a
