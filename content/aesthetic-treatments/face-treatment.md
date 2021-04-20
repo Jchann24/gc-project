@@ -2,7 +2,8 @@
 title: Face Treatment
 meta_title: Face Treatment - GC Aesthetics
 description: Face Treatment - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/face-treatment.svg
+heroText: Face Treatment
 botoxImg: img/bgImg/bg-5.jpg
 fillerImg: img/bgImg/bg-5.jpg
 hydraFacialImg: img/bgImg/bg-5.jpg

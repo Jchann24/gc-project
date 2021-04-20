@@ -2,7 +2,8 @@
 title: Acne Treatment
 meta_title: Acne Treatment - GC Aesthetics
 description: Acne Treatment - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/acne-treatment.svg
+heroText: Acne Treatment
 acneActiveLaserImg: img/bgImg/bg-3.jpg
 acneInjectionImg: img/bgImg/bg-5.jpg
 acneScarRevision1: img/bgImg/bg-3.jpg

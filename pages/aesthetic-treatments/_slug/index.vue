@@ -1,6 +1,6 @@
 <template>
   <div class="mb-5">
-    <BaseHero :img-src="document.heroImg" />
+    <BaseHero :img-src="document.heroImg" :title="document.heroText" />
     <nuxt-content :document="document" />
   </div>
 </template>

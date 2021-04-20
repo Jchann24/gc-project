@@ -2,7 +2,8 @@
 title: Laser Vaginal Tightening
 meta_title: Laser Vaginal Tightening - GC Aesthetics
 description: Laser Vaginal Tightening - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/laser-treatment.svg
+heroText: Laser Treatment
 mainImg: img/bgImg/bg-3.jpg
 ---
 

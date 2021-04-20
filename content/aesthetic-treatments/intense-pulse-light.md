@@ -2,7 +2,8 @@
 title: Intense Pulse Light
 meta_title: Intense Pulse Light - GC Aesthetics
 description: Intense Pulse Light - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/intense-pulse-light.svg
+heroText: Intense Pulse Light
 mainImg: img/bgImg/bg-2.jpg
 ---
 

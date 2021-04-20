@@ -2,7 +2,8 @@
 title: Slimming Programs
 meta_title: Slimming Programs - GC Aesthetics
 description: Slimming Programs - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/slimming-programs.svg
+heroText: Slimming Programs
 btlImg: img/bgImg/bg-2.jpg
 mesotheraphyImg: img/bgImg/bg-2.jpg
 ---

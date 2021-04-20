@@ -2,7 +2,8 @@
 title: Laser Hollywood Peel
 meta_title: Laser Hollywood Peel - GC Aesthetics
 description: Laser Hollywood Peel - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/laser-treatment.svg
+heroText: Laser Treatment
 mainImg: img/bgImg/bg-3.jpg
 ---
 

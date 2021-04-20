@@ -2,7 +2,8 @@
 title: Laser Bibir
 meta_title: Laser Bibir - GC Aesthetics
 description: Laser Bibir - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/laser-treatment.svg
+heroText: Laser Treatment
 mainImg: img/bgImg/bg-3.jpg
 ---
 

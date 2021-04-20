@@ -2,7 +2,8 @@
 title: Laser Pigmentation
 meta_title: Laser Pigmentation - GC Aesthetics
 description: Laser Pigmentation - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/laser-treatment.svg
+heroText: Laser Treatment
 mainImg: img/bgImg/bg-3.jpg
 ---
 

@@ -2,7 +2,8 @@
 title: Laser Stretchmark
 meta_title: Laser Stretchmark - GC Aesthetics
 description: Laser Stretchmark - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/laser-treatment.svg
+heroText: Laser Treatment
 mainImg: img/bgImg/bg-3.jpg
 ---
 

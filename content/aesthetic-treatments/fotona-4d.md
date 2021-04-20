@@ -2,7 +2,8 @@
 title: Fotona 4D
 meta_title: Fotona 4D - GC Aesthetics
 description: Fotona 4D - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/laser-treatment.svg
+heroText: Laser Treatment
 mainImg: img/bgImg/bg-3.jpg
 ---
 

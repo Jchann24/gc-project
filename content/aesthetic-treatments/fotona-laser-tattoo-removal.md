@@ -2,7 +2,8 @@
 title: Fotona Laser Tattoo Removal
 meta_title: Fotona Laser Tattoo Removal - GC Aesthetics
 description: Fotona Laser Tattoo Removal - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/laser-treatment.svg
+heroText: Laser Treatment
 mainImg: img/bgImg/bg-3.jpg
 ---
 

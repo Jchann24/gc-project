@@ -2,7 +2,8 @@
 title: Hair / Skin Treatment
 meta_title: Hair / Skin Treatment - GC Aesthetics
 description: Hair / Skin Treatment - GC Aesthetics
-heroImg: img/bgImg/bg-6.jpg
+heroImg: img/treatments-banner/hair-skin-treatment.svg
+heroText: Hair / Skin Treatment
 permanentHairReductionImg: img/bgImg/bg-2.jpg
 skinResurfacingImg: img/bgImg/bg-2.jpg
 celluliteReductionImg: img/bgImg/bg-2.jpg
