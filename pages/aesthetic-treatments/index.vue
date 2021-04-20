@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 px-0">
-          <div class="hero-container">
-            <img src="img/bgImg/bg-2.jpg" class="hero-img w-100" alt="" />
-            <h1 class="overlay-text">Aesthetic Treatments</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
+    <BaseHeroText
+      v-show="allLoaded"
+      hero-img="img/bgImg/bg-2.jpg"
+      overlay-text="Aesthetic Treatments"
+      @loaded="
+        () => {
+          allLoaded = true
+        }
+      "
+    />
+    <div v-show="allLoaded" class="container">
       <div class="row mt-4">
         <div class="col-12 text-center">
           <h1>Aesthetic Treatments</h1>
@@ -95,6 +95,7 @@ export default {
   name: 'AestheticTreatmentsIndex',
   data() {
     return {
+      allLoaded: false,
       treatmentList: [
         {
           name: 'Laser Treatments',

@@ -1,11 +1,17 @@
 <template>
   <div class="mb-5">
     <BaseHeroText
+      v-show="allLoaded"
       :hero-img="document.heroImg"
       :overlay-text="document.overlayText"
+      @loaded="
+        () => {
+          allLoaded = true
+        }
+      "
     />
     <article>
-      <nuxt-content :document="document" />
+      <nuxt-content v-show="allLoaded" :document="document" />
     </article>
   </div>
 </template>
@@ -16,6 +22,11 @@ export default {
   async asyncData({ $content }) {
     const document = await $content('about-us').fetch()
     return { document }
+  },
+  data() {
+    return {
+      allLoaded: false,
+    }
   },
   head() {
     return {

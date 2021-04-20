@@ -1,7 +1,16 @@
 <template>
   <div class="mb-5">
-    <BaseHero :img-src="document.heroImg" :title="document.heroText" />
-    <nuxt-content :document="document" />
+    <BaseHero
+      v-show="allLoaded"
+      :img-src="document.heroImg"
+      :title="document.heroText"
+      @loaded="
+        () => {
+          allLoaded = true
+        }
+      "
+    />
+    <nuxt-content v-show="allLoaded" :document="document" />
   </div>
 </template>
 
@@ -11,6 +20,11 @@ export default {
   async asyncData({ $content, params }) {
     const document = await $content('aesthetic-treatments', params.slug).fetch()
     return { document }
+  },
+  data() {
+    return {
+      allLoaded: false,
+    }
   },
   head() {
     return {

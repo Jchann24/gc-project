@@ -8,6 +8,7 @@
           :src="imgSrc"
           class="banner-photo"
           :alt="`${title} banner image`"
+          @load="imgLoaded"
         />
         <h1 class="mt-n2 mt-md-n3 mt-xl-n4 text-center">{{ title }}</h1>
       </div>
@@ -28,6 +29,17 @@ export default {
       type: String,
       default: '',
       required: true,
+    },
+  },
+  data() {
+    return {
+      loading: true,
+    }
+  },
+  methods: {
+    imgLoaded() {
+      this.loading = false
+      this.$emit('loaded')
     },
   },
 }
