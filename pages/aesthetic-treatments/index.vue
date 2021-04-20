@@ -1,5 +1,7 @@
 <template>
   <div>
+    <p v-if="!allLoaded" class="text-center mt-5">Loading ...</p>
+
     <BaseHeroText
       v-show="allLoaded"
       hero-img="img/bgImg/bg-2.jpg"
@@ -10,7 +12,7 @@
         }
       "
     />
-    <div v-show="allLoaded" class="container">
+    <div v-show="allLoaded" class="container mb-5">
       <div class="row mt-4">
         <div class="col-12 text-center">
           <h1>Aesthetic Treatments</h1>

@@ -39,6 +39,8 @@ Manfaat Acne active Laser :
 </div>
 </div>
 
+---
+
 <div class="row mt-4">
 <div class="col">
 
@@ -71,6 +73,8 @@ membutuhkan perawatan jerawat dalam waktu yang singkat.
 
 </div>
 </div>
+
+---
 
 <div class="row mt-4">
 <div class="col-12">

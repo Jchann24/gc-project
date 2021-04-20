@@ -1,7 +1,7 @@
 <template>
   <div
     id="mainCarousel"
-    class="carousel slide w-100"
+    class="carousel slide"
     data-bs-ride="carousel"
     data-bs-interval="10000"
   >
@@ -14,14 +14,20 @@
       >
         <div class="d-flex justify-content-center">
           <a
-            v-for="image in imgNames"
-            :key="image"
+            v-for="(image, idx) in imgNames"
+            :key="idx"
             class="d-block mx-1"
             href="http://instagram.com/gc.aesthetics.id"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img :src="`img/specialOffers/${image}`" :alt="`banner ${image}`" />
+            <img
+              v-if="image"
+              :src="`img/specialOffers/${image}`"
+              class="shadow-1"
+              :alt="`banner ${image}`"
+              loading="lazy"
+            />
           </a>
         </div>
       </div>
@@ -52,7 +58,7 @@
     </button>
   </div>
 </template>
-
+1
 <script>
 export default {
   name: 'SpecialOffersCarousel',
@@ -64,7 +70,7 @@ export default {
           'healthy-package.jpeg',
           'slimming-package.jpeg',
         ],
-        ['test-covid.jpeg'],
+        ['test-covid.jpeg', '', ''],
       ],
     }
   },
@@ -73,7 +79,7 @@ export default {
 
 <style scoped>
 a {
-  width: 30%;
+  width: 26%;
 }
 img {
   width: 100%;
@@ -86,7 +92,7 @@ img {
 }
 
 .responsive-ri {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 600px) {
@@ -98,6 +104,10 @@ img {
 @media screen and (min-width: 900px) {
   .responsive-ri {
     font-size: 2em;
+  }
+
+  a {
+    width: 29%;
   }
 
   .carousel-control-prev,

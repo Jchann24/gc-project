@@ -38,6 +38,8 @@ Jumlah perawatan yang diperlukan tergantung pada area yang dirawat, kondisi kuli
 </div>
 </div>
 
+---
+
 <div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-9 mt-4 mt-md-0">
 

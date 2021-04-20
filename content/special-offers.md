@@ -45,7 +45,7 @@ lectus nisi, ac porttitor sapien scelerisque in. Suspendisse at blandit turpis.
 Visit our [Instagram](https://www.instagram.com/gc.aesthetics.id)
 
 <div class="row">
-<div class="col px-2">
+<div class="col px-0">
 
 <special-offers-carousel>
 

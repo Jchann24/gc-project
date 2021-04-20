@@ -6,7 +6,7 @@
           <h1>Treatment and Therapies</h1>
         </div>
       </div>
-      <div class="row mt-2 g-5">
+      <div class="row mt-2 g-5 justify-content-center">
         <div
           v-for="(item, index) in cardItems"
           :key="index"
@@ -18,6 +18,7 @@
                 :src="`${item.bgImage}`"
                 :alt="`${item.bgImage}`"
                 class="card-img card-img-style"
+                loading="lazy"
               />
             </figure>
             <div
@@ -29,8 +30,9 @@
                 >
                   <img
                     :src="`${item.icon}`"
-                    width="145"
+                    width="125"
                     :alt="`${item.name} icon`"
+                    loading="lazy"
                   />
                   <h2 class="c-color-ornaments h4 text-center">
                     {{ item.name }}

@@ -16,8 +16,8 @@ mainImage: img/bgImg/bg-2.jpg
 </div>
 </div>
 
-<div class="row mt-4">
-<div class="col-12 order-2 order-md-1 col-md-8">
+<div class="row mt-4 ">
+<div class="col-12 order-2 order-lg-1 col-lg-7 mt-4 mt-lg-0">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae orci
 ut eros consequat tempor eu ac lectus. Aliquam porta neque et justo lobortis
@@ -38,9 +38,9 @@ est, eu sodales ex mollis at. Duis libero leo, fermentum non faucibus ac,
 auctor eget nulla.
 
 </div>
-<div class="col-12 order-1 order-md-2 col-md-4">
+<div class="col-12 order-1 order-lg-2 col-lg-5">
 
-<img :src="mainImage" class="w-100" alt="about us image"/>
+<img :src="mainImage" class="w-100 shadow" alt="about us image"/>
 
 </div>
 </div>

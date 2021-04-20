@@ -41,6 +41,8 @@ tidak di inginkan di bagian seperti underarm, bikini, kaki secara permanen.
 </div>
 </div>
 
+---
+
 <div class="row mt-4">
 <div class="col">
 
@@ -84,7 +86,9 @@ merias wajah dan melanjutkan rutinitas perawatan kulit seperti biasa.
 </div>
 </div>
 
- <div class="row mt-4">
+---
+
+<div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-8">
 
 # Cellulite Reduction
@@ -112,6 +116,8 @@ tinggi.
 
 </div>
 </div>
+
+---
 
 <div class="row mt-4">
 <div class="col">
@@ -145,6 +151,8 @@ kali perawatan singkat.
 
 </div>
 </div>
+
+---
 
 <div class="row mt-4">
 <div class="col text-center">
@@ -188,6 +196,8 @@ dan memuaskan
     <img :src="hifuImg" class="w-100" alt="" />
 </div>
 </div>
+
+---
 
 <div class="row mt-4">
 <div class="col">

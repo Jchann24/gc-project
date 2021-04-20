@@ -3,7 +3,7 @@
     <hr />
     <footer class="footer mt-auto p-3 bg-white">
       <div id="contactUsSection" class="container">
-        <div class="row">
+        <div class="row mt-4">
           <div class="col-12 col-md-4 d-flex flex-column">
             <h5>Find Us</h5>
             <p>

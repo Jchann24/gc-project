@@ -51,6 +51,8 @@ normal
 </div>
 </div>
 
+---
+
 <div class="row mt-4">
 
 # Filler
@@ -89,6 +91,8 @@ yang relative cepat setelah perawatan.
 </div>
 </div>
 
+---
+
 <div class="row mt-4">
 <div class="col">
 
@@ -125,6 +129,8 @@ melanjutkan aktifitas atau merias wajah.
 </div>
 </div>
 
+---
+
 <div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-9">
 
@@ -157,7 +163,9 @@ Benefit chemical peeling sebagai berikut
 </div>
 </div>
 
- <div class="row mt-4">
+---
+
+<div class="row mt-4">
 <div class="col text-center">
 
 # Skin Booster
@@ -200,6 +208,8 @@ bulan, dengan dukungan perawatan kulit
 </div>
 </div>
 
+---
+
 <div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-9">
 
@@ -216,9 +226,13 @@ stretch mark lainnya dan memberikan efek peremajaan kulit
 
 </div>
 <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
+
 <img :src="plateletRichPlasmaImg" class="custom-img w-100" alt="Platelet Rich Plasma image" />
+
 </div>
 </div>
+
+---
 
 <div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-9">
