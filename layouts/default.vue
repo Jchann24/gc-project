@@ -54,7 +54,7 @@ h6 {
   width: 15px;
 }
 ::-webkit-scrollbar-track {
-  background-color: transparent;
+  background-color: whitesmoke;
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
