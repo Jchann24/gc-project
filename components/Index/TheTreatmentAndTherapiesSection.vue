@@ -61,67 +61,67 @@ export default {
         {
           name: 'Laser Treatments',
           icon: 'img/icons/GC-Icon-09.svg',
-          bgImage: 'img/bgImg/bg-1.jpg',
+          bgImage: 'img/laser-treatment/fotona-laser-tattoo-removal.jpg',
           description:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
+            'Non-invasive aesthetic treatments GC Aesthetics Clinics using the best laser technology from Fotona which is designed to treat, beautify your appearance and treat your skin condition',
         },
         {
           name: 'Acne Treatment',
           icon: 'img/icons/GC-Icon-07.svg',
-          bgImage: 'img/bgImg/bg-3.jpg',
+          bgImage: 'img/acne-treatments/acne-laser.png',
           description:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
+            'A series of treatments that are specialized by GC Aesthetics to treat acne or prevent acne growth in all areas.',
         },
         {
           name: 'Acupunture',
           icon: 'img/icons/GC-Icon-10.svg',
-          bgImage: 'img/bgImg/bg-6.jpg',
+          bgImage: 'img/acupunture/acupunture.jpg',
           description:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
+            'An extension of traditional acupuncture treatment with many benefits to enhance your appearance and maintain your health',
         },
         {
           name: 'Intense Pulse Light',
           icon: 'img/icons/GC-Icon-03.svg',
-          bgImage: 'img/bgImg/bg-3.jpg',
+          bgImage: 'img/intense-pulse-light/tribella.jpg',
           description:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
+            'A treatment that utilizes multiple light waves by Venus is a combination of photo facial, lifting & sculpting, and skin resurfacing in one session (Tribella)',
         },
         {
           name: 'Hair / Skin Treatment',
           icon: 'img/icons/GC-Icon-02.svg',
-          bgImage: 'img/bgImg/bg-1.jpg',
+          bgImage: 'img/hair-skin-treatments/hifu.jpg',
           description:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
+            'Skin and Hair Care by GC Aesthetics Clinic which is supported by the best Venus Versa technology for all your aesthetic needs',
         },
         {
           name: 'Skin Booster',
           slug: 'skin-booster',
           icon: 'img/icons/GC-Icon-05.svg',
-          bgImage: 'img/bgImg/bg-3.jpg',
+          bgImage: 'img/face-treatments/salmon-dna.jpg',
           description:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
+            'Best Skin Booster products by GC Aesthetics Clinic, accompanied by professional consultations and skin booster applications using the best technology to pamper your skin',
         },
         {
           name: 'Slimming Programs',
           icon: 'img/icons/GC-Icon-06.svg',
-          bgImage: 'img/bgImg/bg-6.jpg',
+          bgImage: 'img/slimming-programs/mesotheraphy.jpg',
           description:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
+            'Consultation for professional weight loss program by GC Aesthetics Clinic accompanied by the best treatment to keep your body slim.',
         },
         {
           name: 'Face Treatment',
           icon: 'img/icons/GC-Icon-04.svg',
-          bgImage: 'img/bgImg/bg-3.jpg',
+          bgImage: 'img/face-treatments/hydra-glow.jpg',
           description:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
+            'Minimal invasive (non laser / surgical) skin and facial treatments from GC Aesthetics Clinic for your cosmetic needs.',
         },
         {
           name: 'Lifting',
           slug: 'lifting',
           icon: 'img/icons/GC-Icon-08.svg',
-          bgImage: 'img/bgImg/bg-1.jpg',
+          bgImage: 'img/hair-skin-treatments/thread-lift.jpg',
           description:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi magnam temporibus placeat perferendis? Placeat, atque!',
+            'The Lifting Treatment by GC Aesthetics Clinic improves your skin to become firmer and helps you to reflect your desired facial shape.',
         },
       ],
     }
