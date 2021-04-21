@@ -2,7 +2,7 @@
   <div id="mainCarousel" class="carousel slide w-100" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div
-        v-for="(imgName, index) in imgList"
+        v-for="(imgName, index) in carouselList"
         :key="index"
         class="carousel-item"
         :class="{ active: index == 0 }"
@@ -12,6 +12,7 @@
           :src="`img/banner/${imgName}`"
           class="d-block mx-auto"
           :alt="`banner ${imgName}`"
+          loading="lazy"
         />
       </div>
     </div>
@@ -48,7 +49,25 @@ export default {
   data() {
     return {
       imgList: ['banner1.jpg', 'banner3.png', 'banner4.png'],
+      aboutUsList: [
+        'about-1.jpg',
+        'about-2.jpg',
+        'about-3.jpg',
+        'about-4.jpg',
+        'about-5.jpg',
+        'about-6.jpg',
+        'about-7.jpg',
+      ],
     }
+  },
+  computed: {
+    carouselList() {
+      if (this.$route.name === 'index') {
+        return this.imgList
+      }
+
+      return this.aboutUsList
+    },
   },
 }
 </script>
@@ -56,7 +75,7 @@ export default {
 <style scoped>
 img {
   width: 100%;
-  height: 50vh;
+  height: 65vh;
   object-fit: cover;
   object-position: 50% 50%;
 }
