@@ -88,4 +88,9 @@ h6 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.object-fit-cover {
+  object-fit: cover;
+  object-position: center;
+}
 </style>

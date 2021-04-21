@@ -4,7 +4,7 @@ meta_title: Laser Kuku / Onchyomycosis - GC Aesthetics
 description: Laser Kuku / Onchyomycosis - GC Aesthetics
 heroImg: img/treatments-banner/laser-treatment.svg
 heroText: Laser Treatment
-mainImg: img/bgImg/bg-3.jpg
+mainImg: img/laser-treatment/laser-kuku.png
 ---
 
 <div class="container">
@@ -16,7 +16,7 @@ mainImg: img/bgImg/bg-3.jpg
 <div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-4">
 
-<img :src="mainImg" class="w-100" alt="Laser Kuku / Onchyomycosis image" />
+<img :src="mainImg" class="w-100 h-100 object-fit-cover shadow-sm" alt="Laser Kuku / Onchyomycosis image" />
 
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
@@ -30,10 +30,10 @@ menghancurkan jamur dan jamur yang hidup di dalam dan di bawah kuku tanpa mempen
 
 Faktor-faktor yang dapat meningkatkan risiko terkena jamur kuku:
 
-– Golongan usia tua, karena aliran darah berkurang
-– Bekerja di lingkungan yang lembab atau basah
-– Memakai kaus kaki dan sepatu yang tidak meyerap keringat
-– Berjalan tanpa alas kaki di daerah komunal lembab
+- Golongan usia tua, karena aliran darah berkurang
+- Bekerja di lingkungan yang lembab atau basah
+- Memakai kaus kaki dan sepatu yang tidak meyerap keringat
+- Berjalan tanpa alas kaki di daerah komunal lembab
 
 Kuku baru yang sehat akan terlihat dalam waktu sekitar tiga bulan,
 meskipun perlu 6 hingga 9 bulan untuk mengganti kuku kaki sendiri.
