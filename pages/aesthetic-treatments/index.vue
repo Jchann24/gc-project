@@ -4,7 +4,7 @@
 
     <BaseHeroText
       v-show="allLoaded"
-      hero-img="img/bgImg/bg-2.jpg"
+      hero-img="img/banner/aesthetic-treatments-banner.jpg"
       overlay-text="Aesthetic Treatments"
       @loaded="
         () => {
