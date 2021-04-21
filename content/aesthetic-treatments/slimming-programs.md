@@ -4,8 +4,8 @@ meta_title: Slimming Programs - GC Aesthetics
 description: Slimming Programs - GC Aesthetics
 heroImg: img/treatments-banner/slimming-programs.svg
 heroText: Slimming Programs
-btlImg: img/bgImg/bg-2.jpg
-mesotheraphyImg: img/bgImg/bg-2.jpg
+btlImg: img/slimming-programs/btl-exilis.jpg
+mesotheraphyImg: img/slimming-programs/mesotheraphy.jpg
 ---
 
 <div class="container">
@@ -13,18 +13,20 @@ mesotheraphyImg: img/bgImg/bg-2.jpg
 # BTL-Exilis: vanquish / xwave / Exilis Elite
 
 **BTL Exilis** digunakan untuk pembentukan tubuh, terutama pada area lemak yang membandel seperti di bawah dagu, area bra, lutut, lengan,
-perut, vagina dan masih banyak lagi. Perawatan ini sangat efektif dan aman untuk digunakan. BTL Exilis menggabungkan **frekuensi ultrasonik** dan **radio frekuensi** untuk menembus kulit dengan panas, menyebabkan sel-sel lemak menyusut, kolagen tumbuh, dan kulit
-berkontraksi. Mengurangi bahkan menghilangkan lemak di tubuh dapat dilakukan dengan melakukan berbagai perawatan seperti **X-Wave,
-Vanquish ME, dan Exilis Elite**. Ketiga perawatan yang disebut dengan **Tripple Slimming** ini tak hanya dapat mengurangi lemak tapi juga
-dapat mengencangkan tubuh dan membuat kulit menjadi lebih bagus.
+perut, vagina dan masih banyak lagi. Perawatan ini sangat efektif dan aman untuk digunakan. 
 
 <div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-4">
 
-<img :src="btlImg" class="w-100" alt="ultra glow tribella image" />
+<img :src="btlImg" class="w-100  shadow-sm object-fit-cover" alt="ultra glow tribella image" />
 
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
+
+BTL Exilis menggabungkan **frekuensi ultrasonik** dan **radio frekuensi** untuk menembus kulit dengan panas, menyebabkan sel-sel lemak menyusut, kolagen tumbuh, dan kulit
+berkontraksi. Mengurangi bahkan menghilangkan lemak di tubuh dapat dilakukan dengan melakukan berbagai perawatan seperti **X-Wave,
+Vanquish ME, dan Exilis Elite**. Ketiga perawatan yang disebut dengan **Tripple Slimming** ini tak hanya dapat mengurangi lemak tapi juga
+dapat mengencangkan tubuh dan membuat kulit menjadi lebih bagus.
 
 Keunggulan **BTL-Exilis**
 
@@ -40,7 +42,7 @@ Jumlah perawatan yang diperlukan tergantung pada area yang dirawat, kondisi kuli
 ---
 
 <div class="row mt-4">
-<div class="col-12 col-md-6 col-lg-9 mt-4 mt-md-0">
+<div class="col-12 col-md-6 col-lg-6 mt-4 mt-md-0">
 
 # Slimming Mesotheraphy
 
@@ -62,9 +64,9 @@ anestesi umum. hampir tidak ada Downtime. Memar kecil bisa muncul, tapi reda
 dengan cepat
 
 </div>
-<div class="col-12 col-md-6 col-lg-3">
+<div class="col-12 col-md-6 col-lg-6">
 
-<img :src="mesotheraphyImg" class="custom-img w-100" alt="mesotheraphy image" />
+<img :src="mesotheraphyImg" class="custom-img w-100 h-100shadow-sm" style="object-fit:contain;" alt="mesotheraphy image" />
 
 </div>
 </div>

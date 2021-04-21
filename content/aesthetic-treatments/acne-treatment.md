@@ -4,10 +4,10 @@ meta_title: Acne Treatment - GC Aesthetics
 description: Acne Treatment - GC Aesthetics
 heroImg: img/treatments-banner/acne-treatment.svg
 heroText: Acne Treatment
-acneActiveLaserImg: img/bgImg/bg-3.jpg
-acneInjectionImg: img/bgImg/bg-5.jpg
-acneScarRevision1: img/bgImg/bg-3.jpg
-acneScarRevision2: img/bgImg/bg-3.jpg
+acneActiveLaserImg: img/acne-treatments/acne-laser.png
+acneInjectionImg: img/acne-treatments/acne-injection.png
+acneScarRevision1: img/acne-treatments/acne-scar-1.jpeg
+acneScarRevision2: img/acne-treatments/acne-scar-2.jpg
 ---
 
 <div class="container">
@@ -34,7 +34,7 @@ Manfaat Acne active Laser :
 </div>
 <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
 
-<img :src="acneActiveLaserImg" class="custom-img w-100" alt="acne active laser image" />
+<img :src="acneActiveLaserImg" class="custom-img w-100 h-100 shadow-sm object-fit-cover" alt="acne active laser image" />
 
 </div>
 </div>
@@ -56,7 +56,9 @@ kualitas tertinggi untuk mengatasi inflamasi jerawat dengan efek samping yang mi
 
 <div class="row">
 <div class="col-12 col-md-6 col-lg-3">
-<img :src="acneInjectionImg" class="custom-img w-100" alt="" />
+
+<img :src="acneInjectionImg" class="custom-img w-100 h-100 shadow-sm object-fit-cover" alt="acne injection image" />
+
 </div>
 <div class="col-12 col-md-6 col-lg-9 mt-3 mt-md-0">
 
@@ -97,10 +99,10 @@ Perbaikan scar pada pasien dapat terlihat setelah 4-6x kombinasi prosedur ini, d
 </div>
 
 <div class="col-12 col-md-6 m-3 m-md-0">
-<img :src="acneScarRevision1" class="w-100" alt="" />
+<img :src="acneScarRevision1" class="w-100 shadow-sm object-fit-cover" style="height: 250px;" alt="acne revision image" />
 </div>
 <div class="col-12 col-md-6 m-3 m-md-0">
-<img :src="acneScarRevision2" class="w-100" alt="" />
+<img :src="acneScarRevision2" class="w-100 shadow-sm object-fit-cover" style="height: 250px;" alt="second acne revision image" />
 </div>
 
 </div>

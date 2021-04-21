@@ -4,12 +4,12 @@ meta_title: Hair / Skin Treatment - GC Aesthetics
 description: Hair / Skin Treatment - GC Aesthetics
 heroImg: img/treatments-banner/hair-skin-treatment.svg
 heroText: Hair / Skin Treatment
-permanentHairReductionImg: img/bgImg/bg-2.jpg
-skinResurfacingImg: img/bgImg/bg-2.jpg
-celluliteReductionImg: img/bgImg/bg-2.jpg
-skinTighteningImg: img/bgImg/bg-2.jpg
-threadLiftImg: img/bgImg/bg-2.jpg
-hifuImg: img/bgImg/bg-2.jpg
+permanentHairReductionImg: img/hair-skin-treatments/permanent-hair-reduction.jpg
+skinResurfacingImg: img/hair-skin-treatments/skin-resurfacing.jpg
+celluliteReductionImg: img/hair-skin-treatments/cellulite-reduction.jpg
+skinTighteningImg: img/hair-skin-treatments/bg-2.jpg
+threadLiftImg: img/hair-skin-treatments/thread-lift.jpg
+hifuImg: img/hair-skin-treatments/hifu.jpg
 ---
 
 <div class="container">
@@ -23,7 +23,9 @@ hifuImg: img/bgImg/bg-2.jpg
 </div>
 <div class="row mt-2">
 <div class="col-12 col-md-6 col-lg-4">
-<img :src="permanentHairReductionImg" class="w-100" alt="" />
+
+<img :src="permanentHairReductionImg" class="w-100 h-100 object-fit-cover shadow-sm" alt="" />
+
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
 
@@ -61,7 +63,7 @@ secara alami disembuhkan oleh tubuh Anda dengan sendirinya.
 
 <div class="row mt-2">
 <div class="col-12 col-md-6 col-lg-4">
-<img :src="skinResurfacingImg" class="w-100" alt="" />
+<img :src="skinResurfacingImg" class="w-100 h-100 object-fit-cover shadow-sm" alt="" />
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
 
@@ -104,7 +106,7 @@ tampak lebih kencang, dan selulit yang hampir menghilang.
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mt-4 mt-md-0">
-<img :src="celluliteReductionImg" class="w-100" alt="" />
+<img :src="celluliteReductionImg" class="w-100 h-100 object-fit-cover shadow-sm" alt="" />
 </div>
 </div>
 <div class="row mt-2">
@@ -127,10 +129,7 @@ tinggi.
 </div>
 </div>
 <div class="row mt-2">
-<div class="col-12 col-md-6 col-lg-4">
-<img :src="skinTighteningImg" class="w-100" alt="" />
-</div>
-<div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
+<div class="col-12 mt-4 mt-md-0">
 
 Perawatan Skin Tightening (Pengencangan Kulit ) bekerja untuk mengencangkan,
 mengencangkan, dan mengencangkan tampilan kulit menggunakan teknologi dari
@@ -193,7 +192,7 @@ dan memuaskan
 
 </div>
 <div class="col-12 col-md-6 col-lg-4 mt-4 mt-md-0">
-    <img :src="hifuImg" class="w-100" alt="" />
+    <img :src="hifuImg" class="w-100 h-100 object-fit-cover shadow-sm" alt="hifu image" />
 </div>
 </div>
 
@@ -209,7 +208,7 @@ dan memuaskan
 <div class="row mt-2">
 <div class="col-12 col-md-6 col-lg-4">
 
-<img :src="threadLiftImg" class="w-100" alt="" />
+<img :src="threadLiftImg" class="w-100 h-100 object-fit-cover shadow-sm" alt="thread lifting image" />
 
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">

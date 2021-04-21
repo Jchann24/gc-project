@@ -4,13 +4,13 @@ meta_title: Face Treatment - GC Aesthetics
 description: Face Treatment - GC Aesthetics
 heroImg: img/treatments-banner/face-treatment.svg
 heroText: Face Treatment
-botoxImg: img/bgImg/bg-5.jpg
-fillerImg: img/bgImg/bg-5.jpg
-hydraFacialImg: img/bgImg/bg-5.jpg
-chemicalPeelingImg: img/bgImg/bg-5.jpg
-salmonDnaImg: img/bgImg/bg-5.jpg
-plateletRichPlasmaImg: img/bgImg/bg-5.jpg
-hydraGlowImg: img/bgImg/bg-5.jpg
+botoxImg: img/face-treatments/botox.jpg
+fillerImg: img/face-treatments/filler.jpg
+hydraFacialImg: img/face-treatments/hydra-facial.jpg
+chemicalPeelingImg: img/face-treatments/chemical-peeling.jpg
+salmonDnaImg: img/face-treatments/salmon-dna.jpg
+plateletRichPlasmaImg: img/face-treatments/platelet-rich-plasma.jpg
+hydraGlowImg: img/face-treatments/hydra-glow.jpg
 ---
 
 <div class="container">
@@ -46,7 +46,7 @@ normal
 </div>
 <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
 
-<img :src="botoxImg" class="custom-img w-100" alt="botox image" />
+<img :src="botoxImg" class="custom-img w-100 h-100 shadow-sm object-fit-cover" alt="botox image" />
 
 </div>
 </div>
@@ -59,7 +59,7 @@ normal
 
 <div class="col-12 col-md-6 col-lg-3">
 
-<img :src="fillerImg" class="custom-img w-100" alt="filler image" />
+<img :src="fillerImg" class="custom-img w-100 h-100 shadow-sm object-fit-cover" alt="filler image" />
 
 </div>
 <div class="col-12 col-md-6 col-lg-9">
@@ -108,7 +108,7 @@ dan menutrisi dioleskan secara bersamaan ke kulit.
 
 <div class="row mt-2">
 <div class="col-12 col-md-6 col-lg-3">
-<img :src="hydraFacialImg" class="custom-img w-100" alt="hydra facial image" />
+<img :src="hydraFacialImg" class="custom-img w-100 h-100 shadow-sm object-fit-cover" alt="hydra facial image" />
 </div>
 <div class="col-12 col-md-6 col-lg-9">
 
@@ -158,7 +158,7 @@ Benefit chemical peeling sebagai berikut
 </div>
 <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
 
-<img :src="chemicalPeelingImg" class="custom-img w-100" alt="chemical peeling image" />
+<img :src="chemicalPeelingImg" class="custom-img w-100 h-100 shadow-sm object-fit-cover" alt="chemical peeling image" />
 
 </div>
 </div>
@@ -192,7 +192,7 @@ dimana zat seperti asam hialuronat, vitamin, PRP dan lainnya dapat disuntikkan d
 <div class="row mt-2">
 <div class="col-12 col-md-6 col-lg-3">
     
-<img :src="salmonDnaImg" class="custom-img w-100" alt="salmon DNA image" />
+<img :src="salmonDnaImg" class="custom-img w-100 h-100 shadow-sm object-fit-cover" alt="salmon DNA image" />
     
 </div>
 <div class="col-12 col-md-6 col-lg-9">
@@ -223,7 +223,7 @@ Terapi ini bersifat autologus yang artinya dari tubuh pasien sendiri sehingga me
 </div>
 <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
 
-<img :src="plateletRichPlasmaImg" class="custom-img w-100" alt="Platelet Rich Plasma image" />
+<img :src="plateletRichPlasmaImg" class="custom-img w-100 h-100 shadow-sm object-fit-cover" alt="Platelet Rich Plasma image" />
 
 </div>
 </div>
@@ -251,7 +251,7 @@ Dikombinasikan dengan rangkaian krim perawatan wajah dari Gc Aesthetics, hasil a
 </div>
 <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
 
-<img :src="hydraGlowImg" class="custom-img w-100" alt="Hydra Glow Image" />
+<img :src="hydraGlowImg" class="custom-img w-100 h-100 shadow-sm object-fit-cover" alt="Hydra Glow Image" />
 
 </div>
 </div>

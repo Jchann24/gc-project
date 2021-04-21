@@ -4,14 +4,14 @@ meta_title: Intense Pulse Light - GC Aesthetics
 description: Intense Pulse Light - GC Aesthetics
 heroImg: img/treatments-banner/intense-pulse-light.svg
 heroText: Intense Pulse Light
-mainImg: img/bgImg/bg-2.jpg
+mainImg: img/intense-pulse-light/tribella.jpg
 ---
 
 <div class="container">
 <div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-4">
 
-<img :src="mainImg" class="w-100" alt="ultra glow tribella image" />
+<img :src="mainImg" class="w-100 h-100 shadow object-fit-cover" alt="ultra glow tribella image" />
 
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">

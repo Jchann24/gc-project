@@ -4,7 +4,7 @@ meta_title: Acupunture - GC Aesthetics
 description: Acupunture - GC Aesthetics
 heroImg: img/treatments-banner/laser-treatment.svg
 heroText: Acupunture
-mainImg: img/bgImg/bg-3.jpg
+mainImg: img/acupunture/acupunture.jpg
 ---
 
 <div class="container">
@@ -16,7 +16,7 @@ mainImg: img/bgImg/bg-3.jpg
 <div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-4">
 
-<img :src="mainImg" class="w-100" alt="Acupunture image" />
+<img :src="mainImg" class="w-100 h-100 shadow-sm object-fit-cover" alt="Acupunture image" />
 
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
