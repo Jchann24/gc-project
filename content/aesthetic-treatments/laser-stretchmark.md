@@ -4,7 +4,7 @@ meta_title: Laser Stretchmark - GC Aesthetics
 description: Laser Stretchmark - GC Aesthetics
 heroImg: img/treatments-banner/laser-treatment.svg
 heroText: Laser Treatment
-mainImg: img/bgImg/bg-3.jpg
+mainImg: img/laser-treatment/laser-stretchmark.jpg
 ---
 
 <div class="container">
@@ -16,7 +16,7 @@ mainImg: img/bgImg/bg-3.jpg
 <div class="row mt-4">
 <div class="col-12 col-md-6 col-lg-4">
 
-<img :src="mainImg" class="w-100" alt="Laser Stretchmark image" />
+<img :src="mainImg" class="w-100 h-100 shadow-sm object-fit-cover" alt="Laser Stretchmark image" />
 
 </div>
 <div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
