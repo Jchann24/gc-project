@@ -63,35 +63,35 @@ export default {
           icon: 'img/icons/GC-Icon-09.svg',
           bgImage: 'img/laser-treatment/fotona-laser-tattoo-removal.jpg',
           description:
-            'Non-invasive aesthetic treatments GC Aesthetics Clinics using the best laser technology from Fotona which is designed to treat, beautify your appearance and treat your skin condition',
+            'Temukan perawatan estetika non invasive GC Aesthetics menggunakan teknologi laser terbaik dari Fotona yang di untuk merawat, mempercantik penampilan dan mengatasi kondisi kulit anda',
         },
         {
           name: 'Acne Treatment',
           icon: 'img/icons/GC-Icon-07.svg',
           bgImage: 'img/acne-treatments/acne-laser.png',
           description:
-            'A series of treatments that are specialized by GC Aesthetics to treat acne or prevent acne growth in all areas.',
+            'Rangkaian perawatan yang dispesialisasikan oleh GC Aesthetics untuk mengatasi jerawat atau mencegah pertumbuhan jerawat di semua area.',
         },
         {
           name: 'Acupunture',
           icon: 'img/icons/GC-Icon-10.svg',
           bgImage: 'img/acupunture/acupunture.jpg',
           description:
-            'An extension of traditional acupuncture treatment with many benefits to enhance your appearance and maintain your health',
+            'Perpanjangan dari perawatan acupuncture tradisional dengan banyak manfaat untuk mempercantik penampilan dan menjaga kesehatan anda',
         },
         {
           name: 'Intense Pulse Light',
           icon: 'img/icons/GC-Icon-03.svg',
           bgImage: 'img/intense-pulse-light/tribella.jpg',
           description:
-            'A treatment that utilizes multiple light waves by Venus is a combination of photo facial, lifting & sculpting, and skin resurfacing in one session (Tribella)',
+            'Perawatan yang memanfaatkan banyak gelombang cahaya oleh Venus adalah gabungan perawatan photo facial, lifting & sculpting, dan pelapisan kulit dalam satu sesi (Tribella)',
         },
         {
           name: 'Hair / Skin Treatment',
           icon: 'img/icons/GC-Icon-02.svg',
           bgImage: 'img/hair-skin-treatments/hifu.jpg',
           description:
-            'Skin and Hair Care by GC Aesthetics Clinic which is supported by the best Venus Versa technology for all your aesthetic needs',
+            'Perawatan Kulit dan Rambut oleh GC Aesthetic yang didukung oleh teknologi terbaik Venus Versa untuk segala keperluan Estetika anda',
         },
         {
           name: 'Skin Booster',
@@ -99,21 +99,21 @@ export default {
           icon: 'img/icons/GC-Icon-05.svg',
           bgImage: 'img/face-treatments/salmon-dna.jpg',
           description:
-            'Best Skin Booster products by GC Aesthetics Clinic, accompanied by professional consultations and skin booster applications using the best technology to pamper your skin',
+            'Temukan rangkaian produk Skin Booster terbaik oleh GC Aesthetic, didampingi oleh konsultasi professional dan aplikasi skin booster menggunakan teknologi terbaik untuk memanjakan kulit anda',
         },
         {
           name: 'Slimming Programs',
           icon: 'img/icons/GC-Icon-06.svg',
           bgImage: 'img/slimming-programs/mesotheraphy.jpg',
           description:
-            'Consultation for professional weight loss program by GC Aesthetics Clinic accompanied by the best treatment to keep your body slim.',
+            'Konsultasi program penurunan berat badan professional oleh GC Aesthetic didampingi oleh perawatan terbaik untuk menjaga kelangsingan tubuh anda',
         },
         {
           name: 'Face Treatment',
           icon: 'img/icons/GC-Icon-04.svg',
           bgImage: 'img/face-treatments/hydra-glow.jpg',
           description:
-            'Minimal invasive (non laser / surgical) skin and facial treatments from GC Aesthetics Clinic for your cosmetic needs.',
+            'Temukan rangkaian perawatan kulit dan wajah minimum invasive (Non Laser / bedah) dari GC Aesthetics untuk kebutuhan kecantikan anda.',
         },
         {
           name: 'Lifting',
@@ -121,7 +121,7 @@ export default {
           icon: 'img/icons/GC-Icon-08.svg',
           bgImage: 'img/hair-skin-treatments/thread-lift.jpg',
           description:
-            'The Lifting Treatment by GC Aesthetics Clinic improves your skin to become firmer and helps you to reflect your desired facial shape.',
+            'Perawatan Lifting oleh GC Aesthetics meningkatkan kulit Anda menjadi lebih kencang dan membantu anda dalam memperfeksikan bentuk wajah yang anda inginkan',
         },
       ],
     }
