@@ -6,7 +6,7 @@
           <IndexTheCarousel />
         </div>
       </div>
-      <div class="row mt-4">
+      <div class="row py-5 c-bg-icon">
         <div class="col-12 col-md-10 col-lg-8 mx-auto">
           <IndexTheWhySection />
         </div>
