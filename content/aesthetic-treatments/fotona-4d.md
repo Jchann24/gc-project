@@ -10,7 +10,7 @@ mainImg: img/laser-treatment/fotona-laser-tattoo-removal.jpg
 <div class="container">
 <div class="row mt-4">
 
-# Fotona 4D
+## Fotona 4D
 
 </div>
 <div class="row mt-4">

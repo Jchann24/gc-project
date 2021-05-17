@@ -110,6 +110,7 @@ export default {
             'Fotona 4D',
             'Laser Bibir',
             'Laser Hollywood Peel',
+            'Laser Toning Melasma',
             'Laser Stretchmark',
             'Laser Vaginal Tightening',
           ],
