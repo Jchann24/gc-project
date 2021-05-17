@@ -98,4 +98,16 @@ h6 {
   object-fit: contain;
   object-position: center;
 }
+
+ul.dash {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+ul.dash > li:before {
+  display: inline-block;
+  content: '-';
+  width: 1em;
+  margin-left: -1em;
+}
 </style>
