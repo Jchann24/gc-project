@@ -4,7 +4,7 @@ meta_title: Fotona 4D - GC Aesthetics
 description: Fotona 4D - GC Aesthetics
 heroImg: img/treatments-banner/laser-treatment.svg
 heroText: Laser Treatment
-mainImg: img/laser-treatment/fotona-4d.png
+mainImg: img/laser-treatment/fotona-laser-tattoo-removal.jpg
 ---
 
 <div class="container">
@@ -14,12 +14,12 @@ mainImg: img/laser-treatment/fotona-4d.png
 
 </div>
 <div class="row mt-4">
-<div class="col-12 col-md-6 col-lg-4">
+<div class="col-12 col-lg-6 col-xl-4">
 
-<img :src="mainImg" class="w-100 shadow-sm" style="object-fit: contain" alt="Fotona 4D image" />
+<img :src="mainImg" class="w-100 shadow-sm object-fit-cover" height="450" alt="Fotona 4D image" />
 
 </div>
-<div class="col-12 col-md-6 col-lg-8 mt-4 mt-md-0">
+<div class="col-12 col-lg-6 col-xl-8 mt-4 mt-lg-0">
 
 **Pengencangan wajah dengan laser Fotona SP Dynamis** adalah metode
 non-invasif, non-ablatif untuk mengembalikan penampilan yang lebih
@@ -32,12 +32,14 @@ pada kulit wajah dan leher.
 
 Benefit dari laser Fotona 4D :
 
-- Metode perawatan laser yang sangat minim invasif
-- Tanpa _downtime_
-- Sistem laser canggih yang memancarkan gelombang dan
+<ul class="dash">
+<li>Metode perawatan laser yang sangat minim invasif</li>
+<li>Tanpa <em>downtime</em></li>
+<li>Sistem laser canggih yang memancarkan gelombang dan
   energi yang lebih maximal dibanding teknologi laser
-  lainnya, menghasilkan hasil yang lebih maximal
-- Perawatan laser dengan tingkat presisi tertinggi
+  lainnya, menghasilkan hasil yang lebih maximal</li>
+<li>Perawatan laser dengan tingkat presisi tertinggi</li>
+</ul>
 
 Biasanya pasien akan mengalami kemerahan setelah perawatan, ini
 biasanya hilang dengan sendirinya dalam jangka waktu singkat dan
