@@ -32,12 +32,12 @@ kehamilan. Laser Toning juga dapat membantu mengurangi
 munculnya flek dan lesi hitam lainnya, serta pori-pori dan
 kerutan halus.
 
-<img :src="mainImg" class="w-100 object-fit-contain" alt="Laser Hollywood Peel image" />
+<img :src="mainImg" class="w-100 object-fit-contain" alt="Laser Toning Melasma comparison" />
 
 </div>
 <div class="col-12 col-lg-6 mt-4 mt-lg-0">
 
-<img :src="secondImg" class="w-100 object-fit-contain mb-3" alt="Laser Hollywood Peel image" />
+<img :src="secondImg" class="w-100 object-fit-contain mb-3" alt="Laser Toning Melasma info graphics" />
 
 Tidak ada _downtime_ perawatan laser melasma, pasien dapat
 melanjutkan aktivitas dengan segera. Pasien pada umumnya
