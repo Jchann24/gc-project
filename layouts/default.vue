@@ -93,4 +93,9 @@ h6 {
   object-fit: cover;
   object-position: center;
 }
+
+.object-fit-contain {
+  object-fit: contain;
+  object-position: center;
+}
 </style>
