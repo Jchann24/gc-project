@@ -26,7 +26,9 @@
           @loaded="onLoaded"
         />
         <div class="mt-4">
-          <nuxt-content :document="document" />
+          <article>
+            <nuxt-content :document="document" />
+          </article>
         </div>
       </div>
     </transition-group>
