@@ -1,7 +1,6 @@
 <template>
   <div>
-    <p v-if="!allLoaded" class="text-center mt-5">Loading ...</p>
-    <BaseHeroText
+    <!-- <BaseHeroText
       v-show="allLoaded"
       :hero-img="document.heroImg"
       :overlay-text="document.overlayText"
@@ -10,7 +9,7 @@
           allLoaded = true
         }
       "
-    />
+    /> -->
     <article>
       <nuxt-content :document="document" />
     </article>
@@ -40,6 +39,11 @@ export default {
         },
       ],
     }
+  },
+  methods: {
+    onLoaded() {
+      setTimeout(() => (this.allLoaded = true), 1500)
+    },
   },
 }
 </script>

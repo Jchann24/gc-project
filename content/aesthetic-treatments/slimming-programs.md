@@ -119,7 +119,7 @@ membantu membentuk tubuh dan wajah.
 </div>
 </div>
 
-<div class="container-fluid c-bg-icon mb-n5" >
+<div class="container-fluid c-bg-icon mb-n5 mt-5 pb-5" >
 <div class="container py-5">
 <div class="row mt-4">
 <div class="col-12">

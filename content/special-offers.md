@@ -6,7 +6,7 @@ heroImg: img/bgImg/bg-2.jpg
 overlayText: Special Offers
 ---
 
-<div class="container pb-5 px-3 mb-5">
+<div class="container pb-5 px-3 pt-5 mb-5">
 <div class="row mt-4">
 <div class="col text-center">
 
@@ -15,8 +15,8 @@ overlayText: Special Offers
 </div>
 </div>
 
-<div class="row mt-4">
-<div class="col-12 col-lg-5">
+<div class="row mt-5">
+<div class="col-12">
 
 ## Now Happening
 
@@ -27,7 +27,7 @@ overlayText: Special Offers
 - and many more offers.
 
 </div>
-<div class="col-12 col-lg-7 mt-4 mt-lg-0">
+<div class="col-12 mt-4">
 
 ## More Offers?
 

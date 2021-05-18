@@ -7,8 +7,8 @@ heroText: Intense Pulse Light
 mainImg: img/intense-pulse-light/ultra-glow-tribella.png
 ---
 
-<div class="container-fluid c-bg-icon mt-n4">
-<div class="container">
+<div class="container-fluid c-bg-icon mt-n4 mb-n5 pb-5">
+<div class="container pt-4">
 <div class="row pb-5">
 <div class="col-12 mt-4">
 

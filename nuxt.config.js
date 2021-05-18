@@ -47,7 +47,10 @@ export default {
 
   css: ['@/assets/scss/main.scss', '@/assets/transition.css'],
 
-  plugins: ['@/plugins/bootstrap.js'],
+  plugins: [
+    '@/plugins/bootstrap.js',
+    { src: '@/plugins/loadingSpinner.js', mode: 'client' },
+  ],
 
   components: true,
 

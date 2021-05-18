@@ -1,6 +1,14 @@
 <template>
   <div class="mb-5">
-    <p v-if="!allLoaded" class="text-center mt-5">Loading ...</p>
+    <client-only>
+      <FlowerSpinner
+        v-show="!allLoaded"
+        class="mx-auto mt-5"
+        :animation-duration="1500"
+        :size="90"
+        color="#c89900"
+      />
+    </client-only>
     <div v-show="allLoaded">
       <BaseHero
         :img-src="document.heroImg"
@@ -42,6 +50,11 @@ export default {
         },
       ],
     }
+  },
+  methods: {
+    onLoaded() {
+      setTimeout(() => (this.allLoaded = true), 1500)
+    },
   },
 }
 </script>

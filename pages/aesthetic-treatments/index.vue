@@ -1,16 +1,20 @@
 <template>
   <div>
-    <p v-if="!allLoaded" class="text-center mt-5">Loading ...</p>
+    <client-only>
+      <FlowerSpinner
+        v-if="!allLoaded"
+        class="mx-auto mt-5"
+        :animation-duration="1500"
+        :size="90"
+        color="#c89900"
+      />
+    </client-only>
 
     <BaseHeroText
       v-show="allLoaded"
       hero-img="img/banner/aesthetic-treatments-banner.jpg"
       overlay-text="Aesthetic Treatments"
-      @loaded="
-        () => {
-          allLoaded = true
-        }
-      "
+      @loaded="onLoaded"
     />
     <div v-show="allLoaded" class="container mb-5">
       <div class="row mt-4">
@@ -192,6 +196,9 @@ export default {
     },
     handleLaser() {
       document.getElementById('laserTreatmentDropdown').focus()
+    },
+    onLoaded() {
+      setTimeout(() => (this.allLoaded = true), 1000)
     },
   },
 }
