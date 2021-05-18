@@ -5,7 +5,15 @@
         <FlowerSpinner
           v-if="!allLoaded"
           key="spin"
-          style="z-index: 2; position: absolute; top: 20%; left: 50%"
+          style="
+            z-index: 2;
+            position: absolute;
+            top: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+          "
           :animation-duration="1500"
           :size="75"
           color="#c89900"
@@ -17,7 +25,6 @@
           :title="document.heroText"
           @loaded="onLoaded"
         />
-        <hr class="mx-5" />
         <div class="mt-4">
           <nuxt-content :document="document" />
         </div>

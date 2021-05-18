@@ -21,7 +21,7 @@ phrImg: img/intense-pulse-light/permanent-hair-reduction.jpg
 
 ## Permanent Hair Reduction
 
-<div class="row pt-3 pb-5">
+<div class="row pt-3">
 
 <div class="col-12 col-xl-6">
 
@@ -29,7 +29,7 @@ phrImg: img/intense-pulse-light/permanent-hair-reduction.jpg
 
 </div>
 
-<div class="col-12 col-xl-6">
+<div class="col-12 col-xl-6 mt-4 mt-xl-0">
 
 IPL hair removal adalah prosedur yang dilakukan oleh
 dokter kulit dengan menggunakan mesin pemancar
@@ -237,7 +237,7 @@ dan memuaskan
 </div>
 
 <div class="col-12 text-center mt-4 mb-5">
-<img :src="hifuImg" class="w-50 object-fit-contain" alt="hifu comparison image" />
+<img :src="hifuImg" class="w-75 object-fit-contain" alt="hifu comparison image" />
 </div>
 
 </div>
@@ -278,7 +278,7 @@ karena pertambahan usia.
 <img :src="threadLiftImg" class="w-100 object-fit-contain" alt="thread lifting image" />
 </div>
 
-<div class="col-12 col-xl-6">
+<div class="col-12 col-xl-6 mt-4 mt-xl-0">
 
 <div class="card border-0 c-bg-icon" style="border-radius: 30px">
 <div class="card-body p-4 p-lg-5">

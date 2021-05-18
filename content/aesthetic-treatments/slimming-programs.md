@@ -35,31 +35,19 @@ Slimming ini tak hanya dapat mengurangi lemak tapi juga dapat mengencangkan tubu
 <div class="row">
 
 <div class="col-12 col-xl-6 mt-4">
-<div class="card border-0" style="height: 500px;">
+<div class="card border-0" style="height: 550px;">
 <div class="card-body c-bg-icon p-4 p-lg-5 d-flex flex-column justify-content-center" style="border-radius: 30px">
 
 ### Vanquish ME
 
-Menggunakan energi high frequency, BTL
-Vanquish ME berfungsi untuk mengurangi
-kantong lemak membandel. Sel lemak dipanaskan
-secara selektif dan seragam dan kemudian
-mengalami penghancuran diri non-trauma, yang
-mengakibatkan hilangnya sel lemak alami melalui
-kematian sel terprogram. Perawatan pengurangan
-lemak Vanquish akan disesuaikan dengan
-kebutuhan dan tubuh unik Anda untuk memastikan
-hasil yang diinginkan dapat dicapai. prosedur ini
-sepenuhnya non-bedah dan non-kontak, sehingga
-relatif aman dan lebih nyaman daripada opsi
-perawatan pengurangan lemak lainnya
+Menggunakan energi high frequency, BTL Vanquish ME berfungsi untuk mengurangi kantong lemak membandel. Sel lemak dipanaskan secara selektif dan seragam dan kemudian mengalami penghancuran diri non-trauma, yang mengakibatkan hilangnya sel lemak alami melalui kematian sel terprogram. Perawatan pengurangan lemak Vanquish akan disesuaikan dengan kebutuhan dan tubuh unik Anda untuk memastikan hasil yang diinginkan dapat dicapai. prosedur ini sepenuhnya non-bedah dan non-kontak, sehingga relatif aman dan lebih nyaman daripada opsi perawatan pengurangan lemak lainnya
 
 </div>
 </div>
 </div>
 
 <div class="col-12 col-xl-6 mt-4"> 
-<div class="card border-0" style="height: 500px;">
+<div class="card border-0" style="height: 550px;">
 <div class="card-body c-bg-icon p-4 p-lg-5 d-flex flex-column justify-content-center" style="border-radius: 30px;">
 
 ### X-Wave
@@ -85,7 +73,7 @@ membutuhkan waktu antara 15-30 menit per sesi.
 </div>
 
 <div class="col-12 col-xl-6 mt-4"> 
-<div class="card border-0" style="height: 500px;">
+<div class="card border-0" style="height: 550px;">
 <div class="card-body c-bg-icon p-4 p-lg-5 d-flex flex-column justify-content-center" style="border-radius: 30px;">
 
 ### Exilis® Elite

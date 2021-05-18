@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid py-5 px-4 mx-5 text-white">
+    <div class="container-fluid py-5 px-4 text-white">
       <div class="row">
         <div class="col-12 col-md-4 d-flex flex-column">
           <h5>Find Us</h5>
