@@ -1,22 +1,25 @@
 <template>
   <div class="mb-5">
-    <client-only>
-      <FlowerSpinner
-        v-show="!allLoaded"
-        class="mx-auto mt-5"
-        :animation-duration="1500"
-        :size="90"
-        color="#c89900"
-      />
-    </client-only>
-    <div class="row">
-      <div class="col mx-0 px-0">
-        <IndexTheCarousel />
+    <transition-group name="fade">
+      <client-only>
+        <FlowerSpinner
+          v-show="!allLoaded"
+          key="spin"
+          style="z-index: 2; position: absolute; top: 20%; left: 50%"
+          :animation-duration="1500"
+          :size="75"
+          color="#c89900"
+        />
+      </client-only>
+      <div v-show="allLoaded" key="photo" class="row">
+        <div class="col mx-0 px-0">
+          <IndexTheCarousel />
+        </div>
       </div>
-    </div>
-    <article>
-      <nuxt-content v-show="allLoaded" :document="document" />
-    </article>
+      <article v-show="allLoaded" key="content">
+        <nuxt-content :document="document" />
+      </article>
+    </transition-group>
   </div>
 </template>
 
@@ -29,7 +32,7 @@ export default {
   },
   data() {
     return {
-      allLoaded: true,
+      allLoaded: false,
     }
   },
   head() {
@@ -44,6 +47,10 @@ export default {
       ],
     }
   },
+  mounted() {
+    this.onLoaded()
+  },
+
   methods: {
     onLoaded() {
       setTimeout(() => (this.allLoaded = true), 1500)

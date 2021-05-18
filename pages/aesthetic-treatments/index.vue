@@ -1,89 +1,95 @@
 <template>
   <div>
-    <client-only>
-      <FlowerSpinner
-        v-if="!allLoaded"
-        class="mx-auto mt-5"
-        :animation-duration="1500"
-        :size="90"
-        color="#c89900"
+    <transition-group name="fade">
+      <client-only>
+        <FlowerSpinner
+          v-show="!allLoaded"
+          key="spin"
+          style="z-index: 2; position: absolute; top: 20%; left: 50%"
+          :animation-duration="1500"
+          :size="75"
+          color="#c89900"
+        />
+      </client-only>
+      <BaseHeroText
+        v-show="allLoaded"
+        key="hero"
+        hero-img="img/banner/aesthetic-treatments-banner.jpg"
+        overlay-text="Aesthetic Treatments"
+        @loaded="onLoaded"
       />
-    </client-only>
-
-    <BaseHeroText
-      v-show="allLoaded"
-      hero-img="img/banner/aesthetic-treatments-banner.jpg"
-      overlay-text="Aesthetic Treatments"
-      @loaded="onLoaded"
-    />
-    <div v-show="allLoaded" class="container mb-5">
-      <div class="row mt-4">
-        <div class="col-12 text-center">
-          <h1>Aesthetic Treatments</h1>
+      <div v-show="allLoaded" key="menus" class="container mb-5">
+        <div class="row mt-4">
+          <div class="col-12 text-center">
+            <h1>Aesthetic Treatments</h1>
+          </div>
         </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-12 mt-4">
-          <div class="row d-flex align-items-start justify-content-center">
-            <div
-              v-for="(item, index) in treatmentList"
-              :key="index"
-              class="col-12 col-md-6 col-lg-3 d-flex justify-content-center"
-            >
-              <div class="card border-0 my-2 my-md-1" style="width: 200px">
-                <div v-if="index == 0" class="hover-badge text-center">
-                  <img
-                    :src="item.icon"
-                    class="card-img-top w-50 mx-auto p-2 c-bg-icon"
-                    alt="..."
-                    @click="handleLaser"
-                  />
-                </div>
-                <nuxt-link v-else :to="`/aesthetic-treatments/${item.slug}`">
-                  <div class="hover-badge text-center">
+        <div class="row mt-4">
+          <div class="col-12 mt-4">
+            <div class="row d-flex align-items-start justify-content-center">
+              <div
+                v-for="(item, index) in treatmentList"
+                :key="index"
+                class="col-12 col-md-6 col-lg-3 d-flex justify-content-center"
+              >
+                <div class="card border-0 my-2 my-md-1" style="width: 200px">
+                  <div v-if="index == 0" class="hover-badge text-center">
                     <img
                       :src="item.icon"
                       class="card-img-top w-50 mx-auto p-2 c-bg-icon"
                       alt="..."
+                      @click="handleLaser"
                     />
                   </div>
-                </nuxt-link>
-                <div class="card-body text-center">
-                  <h5 class="c-color-ornaments">{{ item.name }}</h5>
-                  <div v-if="index != 0">
-                    <p
-                      v-for="(des, i) in item.description"
-                      :key="i"
-                      class="card-text mb-0"
-                    >
-                      {{ des
-                      }}<span v-if="i != item.description.length - 1">,</span>
-                    </p>
-                  </div>
-                  <div v-else>
-                    <div class="dropdown d-flex justify-content-center">
-                      <button
-                        id="laserTreatmentDropdown"
-                        class="btn btn-secondary dropdown-toggle font-noto w-100"
-                        type="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
+                  <nuxt-link v-else :to="`/aesthetic-treatments/${item.slug}`">
+                    <div class="hover-badge text-center">
+                      <img
+                        :src="item.icon"
+                        class="card-img-top w-50 mx-auto p-2 c-bg-icon"
+                        alt="..."
+                      />
+                    </div>
+                  </nuxt-link>
+                  <div class="card-body text-center">
+                    <h5 class="c-color-ornaments">{{ item.name }}</h5>
+                    <div v-if="index != 0">
+                      <p
+                        v-for="(des, i) in item.description"
+                        :key="i"
+                        class="card-text mb-0"
                       >
-                        <u>Select Here</u
-                        ><i class="ri-arrow-down-s-line ri-xs"></i>
-                      </button>
-                      <ul
-                        class="dropdown-menu border-0 c-bg-navbar"
-                        aria-labelledby="laserTreatmentDropdown"
-                      >
-                        <li v-for="(desc, idx) in item.description" :key="idx">
-                          <nuxt-link
-                            class="dropdown-item text-white"
-                            :to="`/aesthetic-treatments/${getSlug(desc)}`"
-                            >{{ desc }}</nuxt-link
+                        {{ des
+                        }}<span v-if="i != item.description.length - 1">,</span>
+                      </p>
+                    </div>
+                    <div v-else>
+                      <div class="dropdown d-flex justify-content-center">
+                        <button
+                          id="laserTreatmentDropdown"
+                          class="btn btn-secondary dropdown-toggle font-noto w-100"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <u>Select Here</u
+                          ><i class="ri-arrow-down-s-line ri-xs"></i>
+                        </button>
+                        <ul
+                          class="dropdown-menu border-0 c-bg-navbar"
+                          aria-labelledby="laserTreatmentDropdown"
+                        >
+                          <li
+                            v-for="(desc, idx) in item.description"
+                            :key="idx"
                           >
-                        </li>
-                      </ul>
+                            <nuxt-link
+                              class="dropdown-item text-white"
+                              :to="`/aesthetic-treatments/${getSlug(desc)}`"
+                              >{{ desc }}</nuxt-link
+                            >
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -92,7 +98,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </transition-group>
   </div>
 </template>
 
