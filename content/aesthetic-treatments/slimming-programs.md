@@ -9,7 +9,6 @@ mesotheraphyImg: img/slimming-programs/mesotheraphy.jpg
 btlEx: img/intense-pulse-light/btl-exilis.png
 btlExCompare: img/intense-pulse-light/btl-exilis-comparison.png
 btlExCompare2: img/intense-pulse-light/btl-exilis-comparison-2.png
-phrImg: img/intense-pulse-light/permanent-hair-reduction.jpg
 ---
 
 <div class="container mt-5">
@@ -120,49 +119,12 @@ membantu membentuk tubuh dan wajah.
 </div>
 </div>
 
-<div class="container-fluid c-bg-icon py-5 mt-4">
-<div class="container mt-4">
-
-### Permanent Hair Reduction
-
-<div class="row pt-3 pb-5">
-
-<div class="col-12 col-xl-6">
-
-<img :src="phrImg" class="w-100 object-fit-contain" alt="btl exilis comparison image two" />
-
-</div>
-
-<div class="col-12 col-xl-6">
-
-IPL hair removal adalah prosedur yang dilakukan oleh
-dokter kulit dengan menggunakan mesin pemancar
-gelombang, yang menghasilkan sinar cahaya yang kuat
-dan berdenyut.
-
-Cahaya ini diarahkan kekulit, menyebabkan kerusakan
-selektif pada folikel rambut, sumber pertumbuhan
-rambut sementara tanpa merusak atau memanaskan
-sisa kulit.
-
-Treatment ini mampu menyamarkan sampai
-menghilangkan rambut di yang tidak diinginkan di
-bagian seperti underarm, bikini, kaki secara permanen.
-Prosedur ini membutuhkan pengulangan, sesuai
-dengan kondisi pasien dan konsultasi GC Clinic.
-
-</div>
-</div>
-
-</div>
-</div>
-
 <div class="container-fluid c-bg-icon mb-n5" >
 <div class="container py-5">
 <div class="row mt-4">
 <div class="col-12">
 
-# Slimming Mesotheraphy
+### Slimming Mesotheraphy
 
 Treatment ini menggunakan teknik suntikan kedalam jaringan lemak tubuh
 menggunakan suntikan vitamin, enzim, hormon, dan ekstrak tumbuh-tumbuhan. Fungsi
