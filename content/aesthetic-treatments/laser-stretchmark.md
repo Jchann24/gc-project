@@ -30,8 +30,8 @@ rencana perawatan stretchmark.
 </div>
 <div class="col-12 mt-4 mt-md-0">
 
-<div class="card">
-<div class="card-body p-4 p-lg-5 c-bg-icon">
+<div class="card border-0">
+<div class="card-body p-4 p-lg-5 c-bg-icon" style="border-radius: 30px">
 <div class="row">
 <div class="col-12 col-lg-6">
 <img :src="mainImg" class="w-100 h-100 shadow-sm object-fit-cover" alt="Laser Stretchmark image" />
