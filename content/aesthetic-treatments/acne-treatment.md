@@ -8,6 +8,8 @@ acneActiveLaserImg: img/acne-treatments/acne-active-laser.jpg
 acneInjectionImg: img/acne-treatments/acne-injection.png
 acneScarRevision1: img/acne-treatments/acne-scar-revision-comparison.jpg
 acneScarRevision2: img/acne-treatments/acne-scar-2.jpg
+flowerIcon: img/flower-asset.png
+flowerIconInvert: img/flower-asset-invert.png
 ---
 
 <div class="container-fluid c-bg-icon">
@@ -26,14 +28,14 @@ semua bervariasi dalam ukuran, bentuk, jumlah dan konsentrasi.
 </div>
 <div class="col-12">
 <div class="row">
-<div class="col-12 col-lg-6">
+<div class="col-12 col-lg-6 d-flex align-items-center">
 
 <img :src="acneActiveLaserImg" class="object-fit-contain w-100 shadow-sm" alt="acne active laser image" />
 
 </div>
 <div class="col-12 col-lg-6 mt-3 mt-lg-0">
 
-<div class="card h-100" style="border-radius: 30px">
+<!-- <div class="card h-100" style="border-radius: 30px">
 <div class="card-body d-flex align-items-center px-5">
 <div>
 Manfaat Acne active Laser :
@@ -48,8 +50,27 @@ Manfaat Acne active Laser :
 </ul>
 </div>
 </div>
+</div> -->
 
+<div class="card" style="border-radius: 30px; height: 450px">
+<img :src="flowerIcon" class="card-img w-25" style="margin-left: 80%; margin-top: auto" alt="...">
+<div class="card-img-overlay d-flex align-items-center py-5 pe-5" >
+<div>
+
+Manfaat Acne active Laser :
+
+<ul class="dash">
+<li>Mengurangi semua jenis jerawat</li>
+<li>Mengontrol produksi sebum</li>
+<li>Mengecilkan pori-pori besar</li>
+<li>Mengurangi kemerahan dari jerawat yang meradang</li>
+<li>Aman bahkan untuk jerawat yang meradang</li>
+<li>Mengurangi peradangan dan kekambuhan</li>
+</ul>
 </div>
+</div>
+</div>
+
 </div>
 </div>
 </div>
@@ -74,9 +95,11 @@ kualitas tertinggi untuk mengatasi inflamasi jerawat dengan efek samping yang mi
 <div class="row">
 <div class="col-12 col-lg-6">
 
-<div class="card border-0">
-<div class="card-body p-5 c-bg-icon d-flex align-items-center" style="border-radius: 30px">
+<div class="card" style="border-radius: 30px; height: 450px; width: 450px">
+<img :src="flowerIconInvert" class="card-img w-25" style="margin-right: 50vw; margin-top: auto" alt="...">
+<div class="card-img-overlay d-flex align-items-center py-5 ps-5" >
 <div>
+
 Benefit Acne injection
 
 <ul class="dash">
@@ -90,9 +113,11 @@ Perawatan Acne injection dapat dilakukan untuk jerawat pada wajah
 dan area badan lainnya. Sangat direkomendasikan untuk pasien yang
 membutuhkan perawatan jerawat dalam waktu yang singkat.
 
+
 </div>
 </div>
 </div>
+
 </div>
 <div class="col-12 col-lg-6 mt-3 mt-lg-0">
 
