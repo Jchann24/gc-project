@@ -1,7 +1,7 @@
 export default {
   target: 'static',
   router: {
-    base: '/gc-project/',
+    base: process.env.NODE_ENV !== 'production' ? '/gc-project/' : '/',
   },
 
   head: {
