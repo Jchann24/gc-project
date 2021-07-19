@@ -72,7 +72,7 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://jasonnchann24.github.io/gc-project',
+    hostname: 'https://gcaesthetics.clinic',
     gzip: true,
   },
 }
